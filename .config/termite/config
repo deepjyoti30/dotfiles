@@ -1,0 +1,65 @@
+[options]
+allow_bold = true
+audible_bell = false
+clickable_url = true
+dynamic_title = true
+font = SF Mono 12
+icon_name = terminal
+scroll_on_keystroke = true
+scrollback_lines = -1
+urgent_on_bell = true
+hyperlinks = true
+browser = google-chrome-unstable
+cursor_blink = on
+cursor_shape = ibeam
+filter_unmatched_urls = true
+scrollbar = off
+
+
+[colors]
+foreground =        #eeffff
+foreground_bold =   #eeffff
+foreground_dim =    #8c8c8c
+cursor =            #eeffff
+cursor_foreground = #212121
+background =        rgba(17, 17, 17, 0.8)
+
+# black
+color0 =            #212121
+color8 =            #4a4a4a
+
+# red
+color1 =            #f07178
+color9 =            #f07178
+
+# green
+color2 =            #5af78e
+color10 =           #5af78e
+
+# yellow
+color3 =            #ffcb6b
+color11 =           #ffcb6b
+
+# blue
+color4 =            #57c7ff
+color12 =           #57c7ff
+
+# magenta
+color5 =            #c792ea
+color13 =           #c792ea
+
+# cyan
+color6 =            #89ddff
+color14 =           #89ddff
+
+# white
+color7 =            #eeffff
+color15 =           #ffffff
+
+# Extra colors
+color16 =           #f78c6c
+color17 =           #ff5370
+color18 =           #303030
+color19 =           #353535
+color20 =           #b2ccd6
+color21 =           #eeffff
