@@ -1,6 +1,6 @@
 # Dotfiles
 
-**My dotfiles from Ubuntu 17.10**
+**My dotfiles from Manjaro 17.1.10 i3 edition**
 
 ## My Setup
 
@@ -11,8 +11,11 @@
  * nitrogen -- wallpaper
  * termite  -- Terminal
  * rofi     -- app launcher
+ * cmus     -- music player
 
 ## Screenshot
 
-[![Screenshot](https://i.imgur.com/ik7aCPC.png)](https://i.imgur.com/ik7aCPC.png)
+[![Screenshot](https://i.imgur.com/eAoo0vu.png)](https://i.imgur.com/eAoo0vu.png)
+[![Screenshot](https://i.imgur.com/9w7EdQV.png)](https://i.imgur.com/9w7EdQV.png)
+[![Screenshot](https://i.imgur.com/8Eqhelh.png)](https://i.imgur.com/8Eqhelh.png)
 
