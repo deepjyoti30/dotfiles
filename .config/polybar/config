@@ -19,7 +19,6 @@ margin-top = 0
 margin-bottom = 0
 
 [bar/toolbar]
-
 width = 100%
 height = 28
 enable-ipc = true
@@ -40,9 +39,9 @@ module-margin-right = 1
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-modules-left = battery
+modules-left = song-menu song
 modules-center = xwindow
-modules-right =wifi volume date clock
+modules-right = wifi date clock
 
 
 [bar/bottombar]
@@ -67,17 +66,96 @@ padding-left = 1
 padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
-
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-modules-left = cpu ram
-#modules-center = i3 bspwm ewmh
+modules-left = battery temperature ram cpu 
 modules-center = i3
-modules-right = weather powermenu
+modules-right = keyboard weather powermenu tray
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
+
+[module/battery]
+type = internal/battery
+
+; This is useful in case the battery never reports 100% charge
+full-at = 99
+
+; Use the following command to list batteries and adapters:
+; $ ls -1 /sys/class/power_supply/
+battery = BAT0
+adapter = ADP1
+
+; If an inotify event haven't been reported in this many
+; seconds, manually poll for new values.
+;
+; Needed as a fallback for systems that don't report events
+; on sysfs/procfs.
+;
+; Disable polling by setting the interval to 0.
+;
+; Default: 5
+poll-interval = 5
+
+format-charging-foreground = ${colors.cyan}
+format-discharging-foreground = ${colors.yellow}
+
+format-charging = <animation-charging> <label-charging>
+
+; Available tags:
+;   <label-discharging> (default)
+;   <bar-capacity>
+;   <ramp-capacity>
+;   <animation-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
+
+; Available tags:
+;   <label-full> (default)
+;   <bar-capacity>
+;   <ramp-capacity>
+;format-full = <ramp-capacity> <label-full>
+
+; Available tokens:
+;   %percentage% (default)
+;   %time%
+;   %consumption% (shows current charge rate in watts)
+label-charging = %percentage%%
+
+; Available tokens:
+;   %percentage% (default)
+;   %time%
+;   %consumption% (shows current discharge rate in watts)
+label-discharging = %percentage%%
+
+; Available tokens:
+;   %percentage% (default)
+label-full = Fully charged
+
+; Only applies if <ramp-capacity> is used
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+; Framerate in milliseconds
+animation-charging-framerate = 750
+
+; Only applies if <animation-discharging> is used
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-3 = 
+animation-discharging-4 = 
+; Framerate in milliseconds
+animation-discharging-framerate = 500
+
 
 [module/wifi]
 type = internal/network
@@ -85,7 +163,7 @@ type = internal/network
 interface = wlp6s0
 interval = 1
 
-label-connected = %{A} %{A:wicd-client &:} %essid%%{A} | %local_ip%
+label-connected = %{A} %{A:wicd-client &:} %essid%%{A}
 format-connected-foreground = ${colors.blue}
 
 format-disconnected-padding = 1
@@ -105,25 +183,25 @@ label =  %{A:termite -e vtop &:}%percentage%%
 
 [module/temperature]
 label-padding-left = 1
-type = internal/temperature
+type = custom/script
+exec = $HOME/.config/polybar/temperature.sh
 interval = 1
-
-thermal-zone = 0
-
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
-
-warn-temperature = 60
-#type = custom/script
-#exec = $HOME/.config/polybar/temperature.sh
-##interval = 1
 
 format-foreground = ${colors.magenta}
 
-#label =  %output%°C
+label =  %output%°C
 
+[module/song]
+type = custom/script
+exec = $HOME/.config/polybar/currentcmus.sh
+click-left =  sh $HOME/.config/polybar/pp.sh
+interval = 0.25
+format-foreground = ${colors.green}
+
+label = %output%
 
 [module/ram]
-label-padding-left = 1
+label-padding-left = 0
 type = internal/memory
 interval = 3
 
@@ -148,7 +226,7 @@ label-padding-left = 1
 type = internal/xwindow
 
 label = %title%
-label-maxlen = 70
+label-maxlen = 40
 
 format-foreground = ${colors.foreground}
 format-prefix = " "
@@ -158,17 +236,16 @@ format-margin = 5
 
 
 [module/clock]
-type = internal/date
-
+type = custom/script
+exec = "sh $HOME/.config/polybar/time.sh"
 interval = 1.0
-
-time =  %H:%M
 
 format = <label>
 format-prefix = " "
 format-foreground = ${colors.yellow}
+format-postfix = " "
 
-label = %time%
+label = %output%
 
 
 [module/date]
@@ -189,14 +266,56 @@ master-mixer = Master
 
 format-volume-foreground = ${colors.green}
 
-format-volume =  <label-volume>
+format-volume =  <label-volume>
 
 format-volume-prefix = " "
 format-muted-prefix = " "
 
-label-muted =  mute
+label-muted =  mute
 label-muted-foreground = ${colors.red}
 
+[module/pp]
+type = custom/ipc
+hook-0 = sh $HOME/.config/polybar/showpp.sh
+hook-1 = sh $HOME/.config/polybar/pp.sh
+initial = 1
+format-foreground = ${colors.magenta}
+click-left = polybar-msg -p %pid% hook pp 2
+
+[module/prev]
+type = custom/ipc
+hook-0 = cmus-remote -r
+hook-1 = echo 
+initial = 2
+click-left = polybar-msg -p %pid% hook prev 1
+format-foreground = ${colors.yellow}
+
+[module/next]
+type = custom/ipc
+hook-0 = cmus-remote -n
+hook-1 = echo 
+initial = 2
+
+click-left = polybar-msg -p %pid% hook next 1
+format-foreground = ${colors.yellow}
+
+
+[module/song-menu]
+type = custom/menu
+
+expand-right = true
+label-open = 
+label-open-foreground = ${colors.yellow}
+label-close = 
+label-close-foreground = ${colors.red}
+label-separator = "  "
+
+menu-0-0 = 
+menu-0-0-exec = cmus-remote -r
+menu-0-1 = 
+menu-0-1-exec = sh $HOME/.config/polybar/pp.sh
+menu-0-2 = 
+menu-0-2-exec = cmus-remote -n 
 
 [module/powermenu]
 type = custom/menu
@@ -213,8 +332,8 @@ menu-0-0 = Reboot
 menu-0-0-exec = menu-open-1
 menu-0-1 = Shutdown
 menu-0-1-exec = menu-open-2
-menu-0-2 = Exit
-menu-0-2-exec = menu-open-3
+#menu-0-2 = Exit
+#menu-0-2-exec = menu-open-3
 
 menu-1-0 = 
 menu-1-0-exec = termite -e 'reboot'
@@ -238,15 +357,14 @@ label-font = 3
 enable-click = true
 enable-scroll = true
 
-#
-icon-0 = "term;A"
-icon-1 = "code;"
+icon-0 = "term;"
+icon-1 = "code;"
 icon-2 = "web;"
-icon-3 = "social;"
-#icon-4 = "music;"
-#icon-5 = "misc;"
-#icon-6 = "media;"
-#icon-7 = "editor;"
+#icon-3 = "social;"
+icon-3 = "misc;"
+icon-4 = "music;"
+icon-6 = "media;"
+icon-7 = "editor;"
 
 label-active = %icon%
 label-active-foreground = ${colors.black}
@@ -268,14 +386,14 @@ type = internal/i3
 format = <label-state> <label-mode>
 label-font = 3
 
-ws-icon-0 = "1;1"
-ws-icon-1 = "2;2"
-ws-icon-2 = "3;3"
-ws-icon-3 = "4;4"
-ws-icon-4 = "5;5"
-ws-icon-5 = "6;6"
-ws-icon-6 = "7;7"
-ws-icon-7 = "8;8"
+ws-icon-0 = "1;"
+ws-icon-1 = "2;"
+ws-icon-2 = "3;"
+ws-icon-3 = "4;"
+ws-icon-4 = "5;"
+ws-icon-5 = "6;"
+ws-icon-6 = "7;"
+ws-icon-7 = "8;"
 
 index-sort = true
 wrapping-scroll = true
@@ -338,52 +456,26 @@ blacklist-0 = num lock
 blacklist-1 = scroll lock
 format = <label-indicator>
 label-indicator-padding = 1
-label-indicator-background = ${colors.white}
+#label-indicator-background = ${colors.white}
 label-indicator-foreground = ${colors.black}
 
-[module/battery]
-type = internal/battery
-#format = <label>
-; This is useful in case the battery never reports 100% charge
-full-at = 99
 
-; Use the following command to list batteries and adapters:
-; $ ls -1 /sys/class/power_supply/
-battery = BAT0
-adapter = ADP1
+[module/my-text-label]
+type = custom/text
+content = l m r
 
-; If an inotify event haven't been reported in this many
-; seconds, manually poll for new values.
-;
-; Needed as a fallback for systems that don't report events
-; on sysfs/procfs.
-;
-; Disable polling by setting the interval to 0.
-;
-; Default: 5
-poll-interval = 5
+content-background = #000
+content-foreground = #fff
+content-padding = 4
 
-time-format = %H:%M
+; "click-(left|middle|right)" will be executed using "/usr/bin/env sh -c $COMMAND"
+click-left = echo left
+click-middle = echo middle
+click-right = echo right
 
-format-charging = <label-charging>
-
-format-discharging = <label-discharging>
-label-foreground = ${colors.green}
-format-charging-prefix = " "
-format-discharging-prefix = " "
-label-charging =   Charging | %percentage%%
-label-discharging =   Discharging | %percentage%%
-
-format-charging-foreground = ${colors.green}
-format-discharging-foreground = ${colors.yellow}
-
-; Available tokens:
-;   %percentage% (default)
-label-full = Fully charged
-
-; Only applies if <bar-capacity> is used
-bar-capacity-width = 10
-
+; "scroll-(up|down)" will be executed using "/usr/bin/env sh -c $COMMAND"
+;scroll-up = echo scroll up
+;scroll-down = echo scroll down
 
 #[module/spotify]
 #type = custom/script
