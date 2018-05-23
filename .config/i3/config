@@ -173,13 +173,13 @@ exec --no-startup-id pulseaudio --start
 
 
 # Song control
-bindsym XF86AudioPlay exec playerctl play-pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPlay exec cmus-remote -u
+bindsym XF86AudioNext exec cmus-remote -n
+bindsym XF86AudioPrev exec cmus-remote -r
 
 
 # Screenshot
-bindsym --release $mod+Shift+4 exec --no-startup-id "maim ~/Pictures/Screenshots/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png"
+bindsym --release $mod+Shift+s exec --no-startup-id "maim ~/Pictures/Screenshots/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png"
 
 
 ##########################################################
@@ -218,14 +218,16 @@ bindsym $mod+Shift+0 move container to workspace number 10
 ##########################################################
 
 # Always move windows to specific workspaces
-assign [class="Code"] → 2
+assign [class="Atom"] → 2
 assign [class="Google-chrome-beta"] → 3
 assign [class="Nautilus"] → 4
 assign [class="cmus"] → 5
 
 for_window [window_role="term"] move to workspace 1, move left
 for_window [window_role="cmatrix"] move to workspace 1, move right
-for_window [class="Code"] move to workspace 2
+for_window [window_role="cmus"] move to workspace 5, move up
+for_window [window_role="cava"] move to workspace 5, move down
+for_window [class="Atom"] move to workspace 2
 for_window [class="Google-chrome-beta"] move to workspace 3
 for_window [class="Nautilus"] move to workspace 4
 for_window [class="cmus"] move to workspace 5
@@ -314,6 +316,9 @@ exec_always --no-startup-id compton -b
 # Reposition Polybar
 exec_always --no-startup-id "xdo lower $(xdo id -n polybar); xdo raise $(xdo id -n tray)"
 
+# Set output of cmus as pulse
+exec_always --no-startup-id "cmus-remote -C 'set output_plugin=pulse'"
+
 
 ##########################################################
 ##> Setup Initial Apps
@@ -327,7 +332,7 @@ exec "termite -e cmatrix"
 
 
 # Workspace 2
-exec code
+exec atom
 
 
 # Workspace 3
