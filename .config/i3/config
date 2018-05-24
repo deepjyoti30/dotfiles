@@ -77,9 +77,8 @@ bindsym $mod+Shift+q kill
 
 
 # Lock
-bindsym $mod+shift+l exec betterlockscreen -l
-#--no-startup-id blurlock
-
+bindsym $mod+shift+l exec --no-startup-id blurlock
+#betterlockscreen -l
 
 # Open Rofi
 bindsym $mod+space exec "rofi -modi run,drun,window -show drun"
@@ -222,21 +221,23 @@ assign [class="Atom"] → 2
 assign [class="Google-chrome-beta"] → 3
 assign [class="Nautilus"] → 4
 assign [class="cmus"] → 5
+assign [class="allo"] → 6
 
 for_window [window_role="term"] move to workspace 1, move left
 for_window [window_role="cmatrix"] move to workspace 1, move right
-for_window [window_role="cmus"] move to workspace 5, move up
-for_window [window_role="cava"] move to workspace 5, move down
 for_window [class="Atom"] move to workspace 2
 for_window [class="Google-chrome-beta"] move to workspace 3
 for_window [class="Nautilus"] move to workspace 4
-for_window [class="cmus"] move to workspace 5
+for_window [window_role="cmus"] move to workspace 5, move up
+for_window [window_role="cava"] move to workspace 5, move down
+#for_window [class="cmus"] move to workspace 5
+for_window [class="allo"] move to workspace 6
 
 # Setup floating windows
-#for_window [class="Franz"] floating enable, resize set 1200 800
+for_window [class="allo"] floating enable, resize set 1200 800
 #for_window [class="feh"] floating enable, resize set 1440 900
 #for_window [class="Lxappearance"] floating enable, resize set 900 600
-#for_window [class="Nitrogen"] floating enable, resize set 900 600
+for_window [class="Nitrogen"] floating enable, resize set 900 600
 #for_window [class="gucharmap"] floating enable, resize set 900 600
 
 
@@ -319,6 +320,9 @@ exec_always --no-startup-id "xdo lower $(xdo id -n polybar); xdo raise $(xdo id 
 # Set output of cmus as pulse
 exec_always --no-startup-id "cmus-remote -C 'set output_plugin=pulse'"
 
+# Set a new wallpaper with my Script
+exec_always --no-startup-id "sh $HOME/.i3/grab_paper.sh"
+
 
 ##########################################################
 ##> Setup Initial Apps
@@ -346,15 +350,13 @@ exec nautilus
 exec "termite -e cmus"
 exec "termite -e cava"
 
+# Workspace 6
+exec "google-chrome-beta --app=https://allo.google.com/web"
 
 # Workspace 6
 #exec nautilus
 #exec "google-chrome-unstable --app=http://calendar.google.com"
 #exec "LANG=en_US.utf8 TERM=xterm-256color termite -r ws6-monitor -e vtop"
-
-
-# Workspace 7
-#exec "google-chrome-unstable --app=http://netflix.com"
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 #bar {
