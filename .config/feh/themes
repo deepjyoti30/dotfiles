@@ -1,0 +1,5 @@
+feh -B black \
+-d \
+-N \
+-g 1440x900 \
+--auto-zoom

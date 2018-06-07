@@ -1,0 +1,27 @@
+### colors
+### {{{
+set color_error=lightred
+set color_info=lightyellow
+set color_cmdline_fg=177
+set color_cmdline_bg=default
+set color_separator=238
+set color_statusline_bg=default
+#blue
+set color_statusline_fg=197
+set color_titleline_bg=default
+set color_titleline_fg=lightcyan
+set color_win_bg=default
+set color_win_cur=169
+set color_win_cur_sel_bg=default
+set color_win_cur_sel_fg=217
+set color_win_dir=lightblue
+set color_win_fg=green
+#169
+set color_win_inactive_cur_sel_bg=default
+set color_win_inactive_cur_sel_fg=233
+set color_win_sel_bg=default
+set color_win_sel_fg=lightyellow
+#197
+set color_win_title_bg=default
+set color_win_title_fg=33
+### }}}

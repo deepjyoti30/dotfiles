@@ -1,0 +1,215 @@
+body{
+	/*background: #1b1c1ce8;*/
+    width: 450px;
+    height: 410px;
+   
+    background: #e96443;  /* fallback for old browsers */
+background: -webkit-linear-gradient(60deg, #8739e5, #5496ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(60deg, #8739e5, #5496ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+.notify-box{
+	background-color: #52ff75;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.notify-box.error{
+	background-color: #ff5252;
+}
+
+
+.homepage_btn{
+	background: #ffffff;
+    border: 0px;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #e90f12;
+    width: 100%;
+    cursor: pointer;
+}
+
+.homepage_btn:hover{
+	background-color: #f4eeee;
+}
+
+.logout_btn{
+	background: #e90f12;
+	color: #ffffff;
+	border: 0px;
+    border-radius: 4px;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.logout_btn:hover{
+	background-color: #cd0d0f;
+}
+
+
+.logout-icon{    
+	width: 18%;
+	margin-left: 15px;
+}
+
+
+.bottom-one-btn-row{
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+}
+
+.bottom-two-btn-row{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+
+.ads-div{
+	text-align: center;
+	margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+.goToCookie {
+     border-radius: 4px;
+    background-color: #f75624;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    font-weight: 700;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.goToCookie span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.goToCookie span:after {
+  content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -14px;
+    font-size: 35px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.goToCookie:hover span {
+  padding-right: 40px;
+}
+
+.goToCookie:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.hidden{
+	display: none;
+}
+
+
+
+
+
+.howToUse {
+     border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #7658ed;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    font-weight: 900;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px 0px 25px 0px;
+}
+
+.howToUse span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.howToUse span:after {
+  content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -14px;
+    font-size: 35px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.howToUse:hover span {
+  padding-right: 40px;
+}
+
+.howToUse:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+#cross{
+  width: 25px;
+    margin: 0px 20px 0px 0px;
+}
+
+#uninstall-ext {
+    margin: 8%;
+    height: 255px;
+    
+    background: #ffffff;
+}
+
+#ext-to-uninstall{
+  padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+
+#notice-uninstall{   
+ font-size: 15px;
+    font-weight: 700;
+    padding: 6px 10px 0px 10px;
+}
+
+

@@ -1,0 +1,15 @@
+# GIMP action-history
+
+(history-item "image-scale" 5)
+(history-item "image-crop-to-selection" 3)
+(history-item "file-export-as" 1)
+(history-item "file-export" 2)
+(history-item "file-overwrite" 0)
+(history-item "view-zoom-in" 1)
+(history-item "view-zoom-out" 1)
+(history-item "file-save" 0)
+(history-item "view-scroll-center" 0)
+(history-item "view-zoom-fit-in" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

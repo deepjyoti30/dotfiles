@@ -1,0 +1,6 @@
+2018/06/03-15:15:21.986 30835 Reusing MANIFEST /home/deepjyoti30/.config/google-chrome-beta/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/06/03-15:15:21.987 30835 Recovering log #3
+2018/06/03-15:15:22.047 30835 Reusing old log /home/deepjyoti30/.config/google-chrome-beta/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000003.log 
+2018/06/03-15:19:08.978 4588 Level-0 table #5: started
+2018/06/03-15:19:09.098 4588 Level-0 table #5: 1892663 bytes OK
+2018/06/03-15:19:09.150 4588 Delete type=0 #3

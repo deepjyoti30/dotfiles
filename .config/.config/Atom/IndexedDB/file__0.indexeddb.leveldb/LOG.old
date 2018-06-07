@@ -1,0 +1,61 @@
+2018/06/06-12:02:17.412 3670 Reusing MANIFEST /home/deepjyoti30/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2018/06/06-12:02:17.413 3670 Recovering log #100
+2018/06/06-12:02:17.815 3670 Reusing old log /home/deepjyoti30/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000100.log 
+2018/06/06-12:53:47.299 9037 Level-0 table #104: started
+2018/06/06-12:53:47.555 9037 Level-0 table #104: 1694794 bytes OK
+2018/06/06-12:53:47.612 9037 Delete type=0 #100
+2018/06/06-13:16:23.583 9037 Compacting 2@0 + 1@1 files
+2018/06/06-13:16:23.955 9037 Generated table #105@0: 10 keys, 10928 bytes
+2018/06/06-13:16:23.955 9037 Compacted 2@0 + 1@1 files => 10928 bytes
+2018/06/06-13:16:24.078 9037 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/06/06-13:16:24.078 9037 Delete type=2 #104
+2018/06/06-13:16:24.079 9037 Delete type=2 #101
+2018/06/06-13:16:24.080 9037 Delete type=2 #99
+2018/06/06-13:29:07.545 9037 Compacting 1@1 + 1@2 files
+2018/06/06-13:29:07.713 9037 Generated table #106@1: 57 keys, 68744 bytes
+2018/06/06-13:29:07.713 9037 Compacted 1@1 + 1@2 files => 68744 bytes
+2018/06/06-13:29:07.758 9037 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/06/06-13:29:07.758 9037 Delete type=2 #97
+2018/06/06-13:29:07.759 9037 Delete type=2 #105
+2018/06/06-13:45:43.913 9037 Level-0 table #108: started
+2018/06/06-13:45:44.046 9037 Level-0 table #108: 1708563 bytes OK
+2018/06/06-13:45:44.083 9037 Delete type=0 #103
+2018/06/06-14:10:32.458 9037 Compacting 1@1 + 1@2 files
+2018/06/06-14:10:32.617 9037 Generated table #109@1: 59 keys, 73217 bytes
+2018/06/06-14:10:32.617 9037 Compacted 1@1 + 1@2 files => 73217 bytes
+2018/06/06-14:10:32.661 9037 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/06/06-14:10:32.661 9037 Delete type=2 #108
+2018/06/06-14:10:32.662 9037 Delete type=2 #106
+2018/06/06-17:04:40.257 9037 Level-0 table #111: started
+2018/06/06-17:04:40.465 9037 Level-0 table #111: 1928576 bytes OK
+2018/06/06-17:04:40.528 9037 Delete type=0 #107
+2018/06/06-17:32:24.374 9037 Compacting 1@1 + 1@2 files
+2018/06/06-17:32:24.530 9037 Generated table #112@1: 61 keys, 75466 bytes
+2018/06/06-17:32:24.530 9037 Compacted 1@1 + 1@2 files => 75466 bytes
+2018/06/06-17:32:24.597 9037 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/06/06-17:32:24.597 9037 Delete type=2 #111
+2018/06/06-17:32:24.598 9037 Delete type=2 #109
+2018/06/06-18:39:22.484 9037 Level-0 table #114: started
+2018/06/06-18:39:23.839 9037 Level-0 table #114: 2132530 bytes OK
+2018/06/06-18:39:25.311 9037 Delete type=0 #110
+2018/06/06-19:51:26.494 9037 Level-0 table #116: started
+2018/06/06-19:51:26.733 9037 Level-0 table #116: 2166964 bytes OK
+2018/06/06-19:51:26.821 9037 Delete type=0 #113
+2018/06/06-21:49:42.836 9037 Level-0 table #118: started
+2018/06/06-21:49:43.685 9037 Level-0 table #118: 2180655 bytes OK
+2018/06/06-21:49:43.806 9037 Delete type=0 #115
+2018/06/06-23:36:38.328 9037 Level-0 table #120: started
+2018/06/06-23:36:38.580 9037 Level-0 table #120: 2029463 bytes OK
+2018/06/06-23:36:38.648 9037 Delete type=0 #117
+2018/06/07-00:49:15.454 9037 Level-0 table #122: started
+2018/06/07-00:49:15.611 9037 Level-0 table #122: 1992735 bytes OK
+2018/06/07-00:49:15.679 9037 Delete type=0 #119
+2018/06/07-00:49:15.695 9037 Compacting 4@0 + 1@1 files
+2018/06/07-00:49:16.100 9037 Generated table #123@0: 7 keys, 12223 bytes
+2018/06/07-00:49:16.100 9037 Compacted 4@0 + 1@1 files => 12223 bytes
+2018/06/07-00:49:16.167 9037 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/06/07-00:49:16.167 9037 Delete type=2 #118
+2018/06/07-00:49:16.181 9037 Delete type=2 #116
+2018/06/07-00:49:16.193 9037 Delete type=2 #120
+2018/06/07-00:49:16.194 9037 Delete type=2 #114
+2018/06/07-00:49:16.206 9037 Delete type=2 #122

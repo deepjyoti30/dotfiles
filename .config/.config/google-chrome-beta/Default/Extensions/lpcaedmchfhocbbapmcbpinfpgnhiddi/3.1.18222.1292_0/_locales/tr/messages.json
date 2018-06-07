@@ -1,0 +1,191 @@
+{
+   "11138431688427255": {
+      "message": "Etiket ekle"
+   },
+   "1122146167985532789": {
+      "message": "dün"
+   },
+   "125608713654167241": {
+      "message": "Turkuaz"
+   },
+   "1333255388111908292": {
+      "message": "Market Alışverişi"
+   },
+   "1478393252643397554": {
+      "message": "Turuncu"
+   },
+   "1524000077092854247": {
+      "message": "Bağlantı kaldırıldı."
+   },
+   "1857224091554117760": {
+      "message": "Kırmızı"
+   },
+   "1988879857371940328": {
+      "message": "$1​ etiketini kaldır"
+   },
+   "2269286357657606271": {
+      "message": "Sayfa adresi kaldırıldı"
+   },
+   "2633701539319779732": {
+      "message": "Geri bildirim gönder (yalnızca test sürümü)"
+   },
+   "2803553109654833664": {
+      "message": "Pembe"
+   },
+   "2814668529404267263": {
+      "message": "Oturum aç"
+   },
+   "2973306402585941108": {
+      "message": "Sabah"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Gece"
+   },
+   "3249966726137025950": {
+      "message": "Ortak Çalışanın Aile Grubu"
+   },
+   "3385831848537487538": {
+      "message": "Seyahat"
+   },
+   "3551522853788442530": {
+      "message": "Geri git"
+   },
+   "3555297636767750285": {
+      "message": "Yeşil"
+   },
+   "4047470251075013857": {
+      "message": "Sayfa bağlantısını kaldır"
+   },
+   "4153306913989815073": {
+      "message": "Gizli resim kaydedilemez."
+   },
+   "4343848624651344174": {
+      "message": "Öğleden sonra"
+   },
+   "4409688924773693376": {
+      "message": "Kaydediliyor"
+   },
+   "4439831283519683004": {
+      "message": "Gri"
+   },
+   "4533605085334699862": {
+      "message": "Alıntılar"
+   },
+   "456512308416555173": {
+      "message": "Kitaplar"
+   },
+   "4586373282767984140": {
+      "message": "Sarı"
+   },
+   "4840513623749850224": {
+      "message": "Filmler"
+   },
+   "5061847320181369179": {
+      "message": "Not alın…"
+   },
+   "5403636185480096151": {
+      "message": "TV"
+   },
+   "5446819851466650207": {
+      "message": "Başlık"
+   },
+   "5478662967017843220": {
+      "message": "Koyu mavi"
+   },
+   "577539731512680648": {
+      "message": "Keep'te aç"
+   },
+   "5782779707150593352": {
+      "message": "Çevrimdışı"
+   },
+   "6175061706159277390": {
+      "message": "Sayfa adresi kaydedildi"
+   },
+   "6252259197986158120": {
+      "message": "Dün"
+   },
+   "6324768448533022780": {
+      "message": "$1​ $2​"
+   },
+   "6366376928558090914": {
+      "message": "Yiyecek"
+   },
+   "6428000916830484004": {
+      "message": "Kahverengi"
+   },
+   "6472238195689960152": {
+      "message": "Beyaz"
+   },
+   "6497197865876438261": {
+      "message": "Müzik"
+   },
+   "6510131849363684615": {
+      "message": "Yarın"
+   },
+   "6579707685908557993": {
+      "message": "Akşam"
+   },
+   "689017442055275529": {
+      "message": "$1​ Adlı Kullanıcının Aile Grubu"
+   },
+   "6932835915069019531": {
+      "message": "Resmi kaldır"
+   },
+   "7653702763016575386": {
+      "message": "Mavi"
+   },
+   "7669846901402551021": {
+      "message": "Bugün"
+   },
+   "7728066040934031356": {
+      "message": "Mor"
+   },
+   "7733569569331009603": {
+      "message": "$1​ etiketi eklendi."
+   },
+   "8125425371755035523": {
+      "message": "Geri al"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8169232898590866289": {
+      "message": "+ \"$1​\" etiketini oluştur"
+   },
+   "8543539682750430072": {
+      "message": "Liste düzenlenemez."
+   },
+   "8602525917014156029": {
+      "message": "Yerler"
+   },
+   "8945447668405930101": {
+      "message": "Google Keep Chrome Uzantısı'nı kullanmak için oturum açmalısınız"
+   },
+   "9116610943383363940": {
+      "message": "Kaydedildi"
+   },
+   "911698676339750373": {
+      "message": "Aile Grubu"
+   },
+   "9218540601355708194": {
+      "message": "Notu sil"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Tek bir tıklamayla Google Keep'e kaydedin!"
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep Chrome Uzantısı"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Keep'e Kayıt"
+   }
+}

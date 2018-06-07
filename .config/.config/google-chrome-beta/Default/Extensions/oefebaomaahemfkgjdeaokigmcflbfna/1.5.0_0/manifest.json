@@ -1,0 +1,24 @@
+{
+   "author": "Adolph C.",
+   "background": {
+      "scripts": [ "js/background.bundle.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "description": "A minimal new tab page for Chrome.",
+   "icons": {
+      "128": "icons/minimalnewtab-icon-128.png",
+      "16": "icons/minimalnewtab-icon-16.png",
+      "32": "icons/minimalnewtab-icon-32.png",
+      "48": "icons/minimalnewtab-icon-48.png",
+      "64": "icons/minimalnewtab-icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjI0S2dYdNFAa641aya91G5n5QibZhU/7ClWDfsJoQrKHRNr6Kmyc8O1fnlCeAyC96NfjU2o+T3+gGEerXEF0dNcqYopoyzRF2tPRKzWobMAmhxJ28gzdO9oa2KJYhAI5Pz1bt5ATOhXKknKeYYIaqAIACgUGJvC+gzOoJmeEE1nOiipX4zi+q5ofs24akU3NBChPQPZjCg3QrWjm51DJxdmDTr8qxqIfO48Wn1a9VEXIwC6D0ulfpTWHstvlNO/CtItcUrz0WmyxR6FzCykFCR3k/9peeCmS1ljutitDcanzMARdZ/0ya7h51XiD4cxsfXuEshagykMwSEj4M6GrQIDAQAB",
+   "manifest_version": 2,
+   "name": "Minimal New Tab",
+   "permissions": [ "chrome://favicon/**/*", "https://*.darksky.net/", "http://*.darksky.net/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.0",
+   "web_accessible_resources": [ "img/weather/*.svg", "js/app.bundle.js" ]
+}

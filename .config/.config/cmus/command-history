@@ -1,0 +1,45 @@
+add Downloads/
+set output_plugin=pulse
+add Documents/
+add
+colorscheme my-custom
+colorscheme dracula
+colorscheme Ant-Dracula
+colorscheme ~/.config/cmus/dracula-theme
+colorscheme dracula-theme
+/photo
+echo "%a"
+printf %a
+set resume=true
+%a
+add /home/deepjyoti30/Music/Music
+add $HOME/Music
+add $HOME/Music/
+colorscheme base-16
+sdgbxcljbnlxdjbnvlcnnxjnbxmcbkxklbkxnbxckjvnbmxvnjcljxnbknbkxcvbcxvnkjbnxcvkjjjjnbnxkcvbcxvnbs
+colorscheme 
+Its my Theme
+colorscheme tommorow
+colorscheme my
+colorscheme ~/cmus_temp/my
+colorscheme default
+colorscheme itunes
+clear -p
+vol -10%
+player-prev
+player-next
+toggle volume
+toggle shuffle
+toggle repeat
+pause
+echo "song"
+echo song
+colorscheme it
+colorscheme xterm-white
+colorscheme cyan
+colorscheme cyan.theme
+M
+s
+x
+add ~/Music
+add ~/home/deepjyoti30/Music

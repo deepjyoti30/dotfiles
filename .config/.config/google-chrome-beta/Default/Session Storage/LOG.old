@@ -1,0 +1,12 @@
+2018/06/06-11:49:18.451 2493 Reusing MANIFEST /home/deepjyoti30/.config/google-chrome-beta/Default/Session Storage/MANIFEST-000001
+2018/06/06-11:49:18.451 2493 Recovering log #71
+2018/06/06-11:49:18.515 2493 Reusing old log /home/deepjyoti30/.config/google-chrome-beta/Default/Session Storage/000071.log 
+2018/06/06-18:03:48.796 7787 Compacting 1@1 + 1@2 files
+2018/06/06-18:03:48.914 7787 Generated table #75@1: 73 keys, 4540 bytes
+2018/06/06-18:03:48.914 7787 Compacted 1@1 + 1@2 files => 4540 bytes
+2018/06/06-18:03:49.037 7787 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/06/06-18:03:49.037 7787 Delete type=2 #59
+2018/06/06-18:03:49.056 7787 Delete type=2 #73
+2018/06/06-19:07:39.071 7787 Level-0 table #77: started
+2018/06/06-19:07:39.141 7787 Level-0 table #77: 22801 bytes OK
+2018/06/06-19:07:39.219 7787 Delete type=0 #71

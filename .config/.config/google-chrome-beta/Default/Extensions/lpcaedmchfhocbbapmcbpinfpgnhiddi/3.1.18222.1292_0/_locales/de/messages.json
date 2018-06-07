@@ -1,0 +1,191 @@
+{
+   "11138431688427255": {
+      "message": "Label hinzufügen"
+   },
+   "1122146167985532789": {
+      "message": "gestern"
+   },
+   "125608713654167241": {
+      "message": "Blaugrün"
+   },
+   "1333255388111908292": {
+      "message": "Lebensmittel"
+   },
+   "1478393252643397554": {
+      "message": "Orange"
+   },
+   "1524000077092854247": {
+      "message": "Link entfernt."
+   },
+   "1857224091554117760": {
+      "message": "Rot"
+   },
+   "1988879857371940328": {
+      "message": "Label \"$1​\" entfernen"
+   },
+   "2269286357657606271": {
+      "message": "Seitenadresse wurde entfernt"
+   },
+   "2633701539319779732": {
+      "message": "Feedback senden (nur Dogfood)"
+   },
+   "2803553109654833664": {
+      "message": "Rosa"
+   },
+   "2814668529404267263": {
+      "message": "Anmelden"
+   },
+   "2973306402585941108": {
+      "message": "Morgens"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​ Uhr"
+   },
+   "3190546672187601036": {
+      "message": "Nachts"
+   },
+   "3249966726137025950": {
+      "message": "Familiengruppe des Mitbearbeiters"
+   },
+   "3385831848537487538": {
+      "message": "Reisen"
+   },
+   "3551522853788442530": {
+      "message": "Zurück"
+   },
+   "3555297636767750285": {
+      "message": "Grün"
+   },
+   "4047470251075013857": {
+      "message": "Seitenlink entfernen"
+   },
+   "4153306913989815073": {
+      "message": "Privates Bild kann nicht gespeichert werden."
+   },
+   "4343848624651344174": {
+      "message": "Nachmittags"
+   },
+   "4409688924773693376": {
+      "message": "Wird gespeichert…"
+   },
+   "4439831283519683004": {
+      "message": "Grau"
+   },
+   "4533605085334699862": {
+      "message": "Zitate"
+   },
+   "456512308416555173": {
+      "message": "Bücher"
+   },
+   "4586373282767984140": {
+      "message": "Gelb"
+   },
+   "4840513623749850224": {
+      "message": "Filme"
+   },
+   "5061847320181369179": {
+      "message": "Notiz schreiben…"
+   },
+   "5403636185480096151": {
+      "message": "Fernsehen"
+   },
+   "5446819851466650207": {
+      "message": "Titel"
+   },
+   "5478662967017843220": {
+      "message": "Dunkelblau"
+   },
+   "577539731512680648": {
+      "message": "In Google Notizen öffnen"
+   },
+   "5782779707150593352": {
+      "message": "Offline"
+   },
+   "6175061706159277390": {
+      "message": "Seitenadresse wurde gespeichert"
+   },
+   "6252259197986158120": {
+      "message": "Gestern"
+   },
+   "6324768448533022780": {
+      "message": "$1​ $2​"
+   },
+   "6366376928558090914": {
+      "message": "Ernährung"
+   },
+   "6428000916830484004": {
+      "message": "Braun"
+   },
+   "6472238195689960152": {
+      "message": "Weiß"
+   },
+   "6497197865876438261": {
+      "message": "Musik"
+   },
+   "6510131849363684615": {
+      "message": "Morgen"
+   },
+   "6579707685908557993": {
+      "message": "Abends"
+   },
+   "689017442055275529": {
+      "message": "Familiengruppe von $1​"
+   },
+   "6932835915069019531": {
+      "message": "Bild entfernen"
+   },
+   "7653702763016575386": {
+      "message": "Blau"
+   },
+   "7669846901402551021": {
+      "message": "Heute"
+   },
+   "7728066040934031356": {
+      "message": "Lila"
+   },
+   "7733569569331009603": {
+      "message": "Label \"$1​\" wurde hinzugefügt."
+   },
+   "8125425371755035523": {
+      "message": "Rückgängig machen"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8169232898590866289": {
+      "message": "+ \"$1​\" erstellen"
+   },
+   "8543539682750430072": {
+      "message": "Listenbearbeitung ist nicht verfügbar."
+   },
+   "8602525917014156029": {
+      "message": "Orte"
+   },
+   "8945447668405930101": {
+      "message": "Sie müssen sich anmelden, um die Chrome-Erweiterung für Google Notizen zu verwenden"
+   },
+   "9116610943383363940": {
+      "message": "Gespeichert"
+   },
+   "911698676339750373": {
+      "message": "Familiengruppe"
+   },
+   "9218540601355708194": {
+      "message": "Notiz löschen"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Mit nur einem Klick in Google Notizen speichern!"
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Chrome-Erweiterung für Google Notizen"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "In Google Notizen speichern"
+   }
+}

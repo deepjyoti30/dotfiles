@@ -1,0 +1,191 @@
+{
+   "11138431688427255": {
+      "message": "Thêm nhãn"
+   },
+   "1122146167985532789": {
+      "message": "hôm qua"
+   },
+   "125608713654167241": {
+      "message": "Xanh mòng két"
+   },
+   "1333255388111908292": {
+      "message": "Hàng tạp hóa"
+   },
+   "1478393252643397554": {
+      "message": "Cam"
+   },
+   "1524000077092854247": {
+      "message": "Đã xóa liên kết."
+   },
+   "1857224091554117760": {
+      "message": "Đỏ"
+   },
+   "1988879857371940328": {
+      "message": "Xóa nhãn $1​"
+   },
+   "2269286357657606271": {
+      "message": "Đã xóa địa chỉ trang"
+   },
+   "2633701539319779732": {
+      "message": "Gửi phản hồi (chỉ dogfood)"
+   },
+   "2803553109654833664": {
+      "message": "Hồng"
+   },
+   "2814668529404267263": {
+      "message": "Đăng nhập"
+   },
+   "2973306402585941108": {
+      "message": "Sáng"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Đêm"
+   },
+   "3249966726137025950": {
+      "message": "Nhóm gia đình của cộng tác viên"
+   },
+   "3385831848537487538": {
+      "message": "Du lịch"
+   },
+   "3551522853788442530": {
+      "message": "Quay lại"
+   },
+   "3555297636767750285": {
+      "message": "Xanh lục"
+   },
+   "4047470251075013857": {
+      "message": "Xóa liên kết trang"
+   },
+   "4153306913989815073": {
+      "message": "Không thể lưu hình ảnh riêng tư."
+   },
+   "4343848624651344174": {
+      "message": "Chiều"
+   },
+   "4409688924773693376": {
+      "message": "Đang lưu"
+   },
+   "4439831283519683004": {
+      "message": "Xám"
+   },
+   "4533605085334699862": {
+      "message": "Trích dẫn"
+   },
+   "456512308416555173": {
+      "message": "Sách"
+   },
+   "4586373282767984140": {
+      "message": "Vàng"
+   },
+   "4840513623749850224": {
+      "message": "Phim"
+   },
+   "5061847320181369179": {
+      "message": "Tạo ghi chú…"
+   },
+   "5403636185480096151": {
+      "message": "TV"
+   },
+   "5446819851466650207": {
+      "message": "Tiêu đề"
+   },
+   "5478662967017843220": {
+      "message": "Xanh lam đậm"
+   },
+   "577539731512680648": {
+      "message": "Mở trong Keep"
+   },
+   "5782779707150593352": {
+      "message": "Ngoại tuyến"
+   },
+   "6175061706159277390": {
+      "message": "Đã lưu địa chỉ trang"
+   },
+   "6252259197986158120": {
+      "message": "Hôm qua"
+   },
+   "6324768448533022780": {
+      "message": "$1​ $2​"
+   },
+   "6366376928558090914": {
+      "message": "Thực phẩm"
+   },
+   "6428000916830484004": {
+      "message": "Nâu"
+   },
+   "6472238195689960152": {
+      "message": "Màu trắng"
+   },
+   "6497197865876438261": {
+      "message": "Âm nhạc"
+   },
+   "6510131849363684615": {
+      "message": "Ngày mai"
+   },
+   "6579707685908557993": {
+      "message": "Tối"
+   },
+   "689017442055275529": {
+      "message": "Nhóm gia đình của $1​"
+   },
+   "6932835915069019531": {
+      "message": "Xóa hình ảnh"
+   },
+   "7653702763016575386": {
+      "message": "Xanh lam"
+   },
+   "7669846901402551021": {
+      "message": "Hôm nay"
+   },
+   "7728066040934031356": {
+      "message": "Tím"
+   },
+   "7733569569331009603": {
+      "message": "Đã thêm nhãn $1​."
+   },
+   "8125425371755035523": {
+      "message": "Hoàn tác"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8169232898590866289": {
+      "message": "+ Tạo \"$1​\""
+   },
+   "8543539682750430072": {
+      "message": "Chỉnh sửa danh sách không khả dụng."
+   },
+   "8602525917014156029": {
+      "message": "Vị trí"
+   },
+   "8945447668405930101": {
+      "message": "Bạn phải đăng nhập để sử dụng tiện ích Google Keep của Chrome"
+   },
+   "9116610943383363940": {
+      "message": "Đã lưu"
+   },
+   "911698676339750373": {
+      "message": "Nhóm gia đình"
+   },
+   "9218540601355708194": {
+      "message": "Xóa ghi chú"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Lưu vào Google Keep bằng một cú nhấp chuột!"
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Tiện ích Google Keep dành cho Chrome"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Lưu vào Keep"
+   }
+}

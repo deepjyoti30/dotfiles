@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/Q_48.png",
+      "default_popup": "popup.html",
+      "default_title": "Official Quora Chrome Extension"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://quora.com https://ajax.googleapis.com; object-src 'self'",
+   "description": "Keep up to date with the newest stories and easily search Quora anytime with the official Quora Chrome extension.",
+   "icons": {
+      "128": "images/Q_128.png",
+      "256": "images/Q_256.png",
+      "48": "images/Q_48.png",
+      "512": "images/Q_512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9q+/0OUTLeG3n7RJvoJN51XLjURzGz3gCjRDTjvucRDoia0a2OwCOsf7CMXPkncJrv/+/PtNOx9Pd2/6/pQATqdcNEC65BTeweqTaVKN8PA50iPAcurZfQQKVs1qpZQV4csnDl/S8f72un9Ug9Hp5jQKcwkhpXELrLVv3Vansugo+BJqw1Kh5sXZ9o/6gHUqNE2IuRwDFR4sOuWaHwSG6b+y0joF9Z2tcGO4lUJjB0fYX4uSYAriw5p93iRVR6+JGlC5YQwp8FRJXZbQdYdghzm8KNePWDzkQTUaHMfRQSea2NM1GufrGVhirCzhj6AAeMoGHHhqQvjNKwU7jojZFQIDAQAB",
+   "manifest_version": 2,
+   "name": "Official Quora Chrome Extension",
+   "permissions": [ "*://*.quora.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.7",
+   "web_accessible_resources": [ "js/*" ]
+}

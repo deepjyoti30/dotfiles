@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="cursor" mtime="1528352727" type="string">
+		<stringvalue>capitaine-cursors</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,9 @@
+2018/06/07-13:19:23.551 25852 Reusing MANIFEST /home/deepjyoti30/.config/google-chrome-beta/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/06/07-13:19:23.551 25852 Recovering log #60
+2018/06/07-13:19:23.558 25852 Reusing old log /home/deepjyoti30/.config/google-chrome-beta/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000060.log 
+2018/06/07-13:20:11.789 3914 Level-0 table #64: started
+2018/06/07-13:20:11.886 3914 Level-0 table #64: 787216 bytes OK
+2018/06/07-13:20:11.931 3914 Delete type=0 #60
+2018/06/07-13:21:32.902 3914 Level-0 table #66: started
+2018/06/07-13:21:33.399 3914 Level-0 table #66: 788333 bytes OK
+2018/06/07-13:21:35.749 3914 Delete type=0 #63

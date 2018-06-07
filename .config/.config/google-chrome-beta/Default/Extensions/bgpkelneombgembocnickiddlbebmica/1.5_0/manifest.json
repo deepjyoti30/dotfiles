@@ -1,0 +1,28 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png"
+   },
+   "commands": {
+      "toggle-monitoring": {
+         "description": "Toggle monitoring",
+         "suggested_key": {
+            "default": "Ctrl+Shift+E",
+            "mac": "Command+Shift+E"
+         }
+      }
+   },
+   "description": "XDM integration module for Firefox and Chromimum based browsers",
+   "icons": {
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgBtY7Q8b5wOiQJ5ThlvEhPLDGPKSglRs5byo7NZcqp28ToC+N3aaMiKyrArGUST52lOpdXeTEeo2x6Haaho8VUppUwP+M0XWn5uFI44dv54c/ChBno8mmc1GgyiVkyQIrF5VKi8JnHo6atxvC/HTRiEN/3Z4A3UQxW7ci0n0Eg5RgWDWoZwXpUhVqL1+asLgPIOUIv+DKC5sOcdd/21X/jrYz3Whxuw4TcvDCUACpeFCXYLNHy4nRcMEBMh6pT/FP6yeOVIN4+2ZA+niHdtCibqisRun2xv3iZFklP4jdxIS+GBBOXkvA8pdoHtoQxLOuOwa5CsJAbtH5vvJQEsvJwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0",
+   "name": "XDM Browser Monitor",
+   "permissions": [ "tabs", "cookies", "contextMenus", "webRequest", "webRequestBlocking", "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}

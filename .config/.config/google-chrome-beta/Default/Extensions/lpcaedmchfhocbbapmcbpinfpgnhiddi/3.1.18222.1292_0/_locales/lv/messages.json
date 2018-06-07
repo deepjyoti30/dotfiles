@@ -1,0 +1,191 @@
+{
+   "11138431688427255": {
+      "message": "Pievienot iezīmi"
+   },
+   "1122146167985532789": {
+      "message": "vakar"
+   },
+   "125608713654167241": {
+      "message": "Zilganzaļa"
+   },
+   "1333255388111908292": {
+      "message": "Pārtikas preces"
+   },
+   "1478393252643397554": {
+      "message": "Oranža"
+   },
+   "1524000077092854247": {
+      "message": "Saite ir noņemta."
+   },
+   "1857224091554117760": {
+      "message": "Sarkana"
+   },
+   "1988879857371940328": {
+      "message": "Noņemt iezīmi $1​"
+   },
+   "2269286357657606271": {
+      "message": "Lapas adrese ir noņemta"
+   },
+   "2633701539319779732": {
+      "message": "Sūtīt atsauksmes (tikai izstrādes programmatūra)"
+   },
+   "2803553109654833664": {
+      "message": "Rozā"
+   },
+   "2814668529404267263": {
+      "message": "Pierakstīties"
+   },
+   "2973306402585941108": {
+      "message": "No rīta"
+   },
+   "3121560585545725724": {
+      "message": "$1​, plkst. $2​"
+   },
+   "3190546672187601036": {
+      "message": "Naktī"
+   },
+   "3249966726137025950": {
+      "message": "Līdzrediģētāja ģimenes grupa"
+   },
+   "3385831848537487538": {
+      "message": "Ceļošana"
+   },
+   "3551522853788442530": {
+      "message": "Atpakaļ"
+   },
+   "3555297636767750285": {
+      "message": "Zaļa"
+   },
+   "4047470251075013857": {
+      "message": "Noņemt lapas saiti"
+   },
+   "4153306913989815073": {
+      "message": "Privātu attēlu nevar saglabāt."
+   },
+   "4343848624651344174": {
+      "message": "Pēcpusdienā"
+   },
+   "4409688924773693376": {
+      "message": "Notiek saglabāšana"
+   },
+   "4439831283519683004": {
+      "message": "Pelēka"
+   },
+   "4533605085334699862": {
+      "message": "Citāti"
+   },
+   "456512308416555173": {
+      "message": "Grāmatas"
+   },
+   "4586373282767984140": {
+      "message": "Dzeltena"
+   },
+   "4840513623749850224": {
+      "message": "Filmas"
+   },
+   "5061847320181369179": {
+      "message": "Izveidot piezīmi…"
+   },
+   "5403636185480096151": {
+      "message": "Televīzija"
+   },
+   "5446819851466650207": {
+      "message": "Nosaukums"
+   },
+   "5478662967017843220": {
+      "message": "Tumši zila"
+   },
+   "577539731512680648": {
+      "message": "Atvērt lietotnē Keep"
+   },
+   "5782779707150593352": {
+      "message": "Bezsaistē"
+   },
+   "6175061706159277390": {
+      "message": "Lapas adrese ir saglabāta"
+   },
+   "6252259197986158120": {
+      "message": "Vakar"
+   },
+   "6324768448533022780": {
+      "message": "$2​. gada $1​"
+   },
+   "6366376928558090914": {
+      "message": "Pārtika"
+   },
+   "6428000916830484004": {
+      "message": "Brūna"
+   },
+   "6472238195689960152": {
+      "message": "Balta"
+   },
+   "6497197865876438261": {
+      "message": "Mūzika"
+   },
+   "6510131849363684615": {
+      "message": "Rīt"
+   },
+   "6579707685908557993": {
+      "message": "Vakarā"
+   },
+   "689017442055275529": {
+      "message": "Lietotāja $1​ ģimenes grupa"
+   },
+   "6932835915069019531": {
+      "message": "Noņemt attēlu"
+   },
+   "7653702763016575386": {
+      "message": "Zila"
+   },
+   "7669846901402551021": {
+      "message": "Šodien"
+   },
+   "7728066040934031356": {
+      "message": "Violeta"
+   },
+   "7733569569331009603": {
+      "message": "Iezīme $1​ ir pievienota."
+   },
+   "8125425371755035523": {
+      "message": "Atsaukt"
+   },
+   "8133866583554546341": {
+      "message": "$1​ plkst. $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8169232898590866289": {
+      "message": "+ Izveidot \"$1​\""
+   },
+   "8543539682750430072": {
+      "message": "Saraksta rediģēšana nav pieejama."
+   },
+   "8602525917014156029": {
+      "message": "Vietas"
+   },
+   "8945447668405930101": {
+      "message": "Lai izmantotu Google Keep Chrome paplašinājumu, pierakstieties"
+   },
+   "9116610943383363940": {
+      "message": "Saglabāta"
+   },
+   "911698676339750373": {
+      "message": "Ģimenes grupa"
+   },
+   "9218540601355708194": {
+      "message": "Izdzēsiet piezīmi"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Saglabājiet saturu lietotnē Google Keep ar vienu klikšķi!"
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep Chrome paplašinājums"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Satura saglabāšana lietotnē Keep"
+   }
+}

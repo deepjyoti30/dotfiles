@@ -1,0 +1,1136 @@
+{
+   "checksum": "a88217793056d6279753ab01aae24f4e",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13171322859942988",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13171322859943019",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "278",
+      "synced": {
+         "children": [ {
+            "date_added": "13140010238236516",
+            "id": "5",
+            "meta_info": {
+               "last_visited": "13168946890422798",
+               "last_visited_desktop": "13156191511250297"
+            },
+            "name": "Asus Zenfone 5",
+            "sync_transaction_version": "190",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/zenfone-5"
+         }, {
+            "date_added": "13140084186186901",
+            "id": "6",
+            "meta_info": {
+               "last_visited": "13145279959349231"
+            },
+            "name": "[Guide] How to Port Pixel Navigation Bar Animation to Your Phone (Updated to 7.1.1 Final)",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://chromloop.com/2016/11/guide-how-to-port-pixel-navigation-bar-animation-to-your-phone/"
+         }, {
+            "date_added": "13142625431629118",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13158661013865117"
+            },
+            "name": "[KERNEL][16-06][Radon Kenzo V5.0][STABLE][CM… | Xiaomi Redmi Note 3",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/redmi-note-3/development/kernel-t3414884"
+         }, {
+            "date_added": "13146938900498166",
+            "id": "8",
+            "meta_info": {
+               "last_visited": "13165343877729052"
+            },
+            "name": "Trick School: how to calculate log of a number without using log table",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://trickschool.blogspot.in/2012/06/calculate-logarithm-of-number-without.html?m=1"
+         }, {
+            "date_added": "13147361069312951",
+            "id": "9",
+            "meta_info": {
+               "last_visited": "13161876540876794",
+               "last_visited_desktop": "13161861774310674"
+            },
+            "name": "Factors on which the internal resistance/emf of a cell depends",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.slideshare.net/mobile/HarshSolanki22/factors-on-which-the-internal-resistanceemf-of-a-cell-depends"
+         }, {
+            "date_added": "13147550387091541",
+            "id": "10",
+            "meta_info": {
+               "last_visited": "13147550387122777"
+            },
+            "name": "Teach Yourself Programming in Ten Years",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://norvig.com/21-days.html"
+         }, {
+            "date_added": "13147558912411887",
+            "id": "11",
+            "meta_info": {
+               "last_visited": "13147558912415958"
+            },
+            "name": "Shopping Cart",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.amazon.com/gp/aw/c/ref=mw_dp_buy_crt"
+         }, {
+            "date_added": "13148046857835491",
+            "id": "12",
+            "meta_info": {
+               "last_visited": "13148755797066309"
+            },
+            "name": "Android Oreo Introduces Command Line Interface for Themes",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.xda-developers.com/android-oreo-command-line-themes/"
+         }, {
+            "date_added": "13148806764899052",
+            "id": "13",
+            "meta_info": {
+               "last_visited": "13148807293022389"
+            },
+            "name": "Android Booting Scenarios",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.slideshare.net/mobile/amraldo/android-booting-scenarios"
+         }, {
+            "date_added": "13149157099078290",
+            "id": "14",
+            "name": "Download Ha882 mkv",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://userscloud.com/g9pddhbbvd2f"
+         }, {
+            "date_added": "13150490712312961",
+            "id": "15",
+            "meta_info": {
+               "last_visited": "13165435893106899",
+               "last_visited_desktop": "13161861787650105"
+            },
+            "name": "Chemistry Investigatory Project Class 12",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.slideshare.net/mobile/rahulkushwaha06/chemistry-investigatory-project-class-12"
+         }, {
+            "date_added": "13150730290669831",
+            "id": "16",
+            "meta_info": {
+               "last_visited": "13155241637230502"
+            },
+            "name": "[GUIDE] [Unofficial BL Unlock] RN3 Pro & Pro SE [Flash the neccessary files only] | Android Development and Hacking",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/redmi-note-3/how-to/guide-rn3-pro-se-t3565172/amp/"
+         }, {
+            "date_added": "13150796965629469",
+            "id": "17",
+            "meta_info": {
+               "last_visited": "13151007990212852"
+            },
+            "name": "Cameras in Custom ROMs: How Developers Make Hardware Work without Source Code",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.xda-developers.com/cameras-custom-roms-developers-make-hardware-work-without-source-code/amp/"
+         }, {
+            "date_added": "13153740491761150",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13153740491761563"
+            },
+            "name": "How to Install The Latest Eclipse in Ubuntu 16.04, 15.10 | UbuntuHandbook",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/"
+         }, {
+            "date_added": "13153772179478988",
+            "id": "19",
+            "meta_info": {
+               "last_visited": "13153772179495391"
+            },
+            "name": "How to Install ADB & Fastboot on Ubuntu 16.04, 16.10, 14.04 - LinuxBabe.Com",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.linuxbabe.com/ubuntu/how-to-install-adb-fastboot-ubuntu-16-04-16-10-14-04"
+         }, {
+            "date_added": "13153863588435008",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13153921107055856"
+            },
+            "name": "MANUAL How to unlock Mi Device under Windows and Linux/Mac using VirtualBox - Complaints/Advice - Xiaomi MIUI Official Forum",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://en.miui.com/thread-401381-1-1.html"
+         }, {
+            "date_added": "13153864204414483",
+            "id": "21",
+            "meta_info": {
+               "last_visited_desktop": "13153864482532750"
+            },
+            "name": "kernel - Could not load 'vboxdrv' after upgrade to Ubuntu 16.04 (and I want to keep secure boot) - Ask Ubuntu",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://askubuntu.com/questions/760671/could-not-load-vboxdrv-after-upgrade-to-ubuntu-16-04-and-i-want-to-keep-secur"
+         }, {
+            "date_added": "13153905202672180",
+            "id": "22",
+            "meta_info": {
+               "last_visited_desktop": "13170758479589059"
+            },
+            "name": "encryption - 7-Zip command to create and extract a password-protected ZIP file on Windows? - Stack Overflow",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/28160254/7-zip-command-to-create-and-extract-a-password-protected-zip-file-on-windows"
+         }, {
+            "date_added": "13153907066146583",
+            "id": "23",
+            "meta_info": {
+               "last_visited_desktop": "13153910017496713"
+            },
+            "name": "boot - Install Windows 10 alongside Ubuntu 14.04 - Ask Ubuntu",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://askubuntu.com/questions/699355/install-windows-10-alongside-ubuntu-14-04"
+         }, {
+            "date_added": "13153907144767261",
+            "id": "24",
+            "meta_info": {
+               "last_visited_desktop": "13153907144767612"
+            },
+            "name": "[How To] Access Linux Files In Windows When Dual Booting Linux/Ubuntu/Linux Mint And Windows 10 / 8.1 - LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.linuxandubuntu.com/home/how-to-access-linux-files-in-windows-when-dual-booting-linux-ubuntu-linux-mint-and-windows-10-81"
+         }, {
+            "date_added": "13153908742412702",
+            "id": "25",
+            "meta_info": {
+               "last_visited_desktop": "13153909997248838"
+            },
+            "name": "dual boot - How can I install Windows after I've installed Ubuntu? - Ask Ubuntu",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://askubuntu.com/questions/6317/how-can-i-install-windows-after-ive-installed-ubuntu"
+         }, {
+            "date_added": "13153921166645943",
+            "id": "26",
+            "meta_info": {
+               "last_visited_desktop": "13153921166646481"
+            },
+            "name": "MI bootloader unlock using Linux Distro - MIUI General - Xiaomi MIUI Official Forum",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://en.miui.com/thread-845519-1-1.html"
+         }, {
+            "date_added": "13154858431072417",
+            "id": "27",
+            "meta_info": {
+               "last_visited": "13154858431084933",
+               "last_visited_desktop": "13156712624270384"
+            },
+            "name": "Free Imgur Downloader - imgur.Rest7.com",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://imgur.rest7.com/"
+         }, {
+            "date_added": "13154948463352089",
+            "id": "28",
+            "meta_info": {
+               "last_visited_desktop": "13167737107282918"
+            },
+            "name": "Expanded Main Page - OSDev Wiki",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://wiki.osdev.org/Main_Page"
+         }, {
+            "date_added": "13154957025218176",
+            "id": "29",
+            "meta_info": {
+               "last_visited_desktop": "13172784755876284"
+            },
+            "name": "Google Drive",
+            "sync_transaction_version": "278",
+            "type": "url",
+            "url": "https://drive.google.com/drive/"
+         }, {
+            "date_added": "13154984106467019",
+            "id": "30",
+            "meta_info": {
+               "last_visited": "13154988289753488"
+            },
+            "name": "Hello World · GitHub Guides",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://guides.github.com/activities/hello-world/"
+         }, {
+            "date_added": "13154987182113778",
+            "id": "31",
+            "meta_info": {
+               "last_visited_desktop": "13154987182114282"
+            },
+            "name": "Tiaoc/README.md at master · deepjyoti30/Tiaoc",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/deepjyoti30/Tiaoc/blob/master/README.md"
+         }, {
+            "date_added": "13155036476499806",
+            "id": "32",
+            "meta_info": {
+               "last_visited_desktop": "13170764799107531"
+            },
+            "name": "Dashboard | Codecademy",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.codecademy.com/learn"
+         }, {
+            "date_added": "13155117360428409",
+            "id": "33",
+            "meta_info": {
+               "last_visited_desktop": "13171048376675110"
+            },
+            "name": "diagram-boxmodel",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/diagram-boxmodel.svg"
+         }, {
+            "date_added": "13155160747542049",
+            "id": "34",
+            "meta_info": {
+               "last_visited": "13168698974794455",
+               "last_visited_desktop": "13155160747543736"
+            },
+            "name": "Jon Chretien | Front End Engineer",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://jonchretien.com/"
+         }, {
+            "date_added": "13155243452659292",
+            "id": "35",
+            "meta_info": {
+               "last_visited": "13161806431489486",
+               "last_visited_desktop": "13155243452660309"
+            },
+            "name": "Project-Curernt",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.quackit.com/html/templates/download/bootstrap/business-2/index.html"
+         }, {
+            "date_added": "13155549735018181",
+            "id": "36",
+            "meta_info": {
+               "last_visited": "13161870767055179",
+               "last_visited_desktop": "13161866099214240"
+            },
+            "name": "Chemistry project for Class 12",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.slideshare.net/shibu686/chemistry-project-for-class-12"
+         }, {
+            "date_added": "13156168190471444",
+            "id": "37",
+            "meta_info": {
+               "last_visited_desktop": "13156168190472754"
+            },
+            "name": "Chapter 1. The Rule Engine",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://docs.jboss.org/drools/release/5.3.0.Final/drools-expert-docs/html/ch01.html"
+         }, {
+            "date_added": "13156191741483616",
+            "id": "38",
+            "meta_info": {
+               "last_visited": "13159659060823723",
+               "last_visited_desktop": "13156191741484876"
+            },
+            "name": "Friends Archives - 480p Download Tv Series",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.moviesak47.com/tv-series/friends/"
+         }, {
+            "date_added": "13156445266216372",
+            "id": "39",
+            "meta_info": {
+               "last_visited": "13156456575650524"
+            },
+            "name": "Goodix for Oreo: SOLVED - Pg. 12 | Xiaomi Redmi Note 3",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/redmi-note-3/development/goodix-oreo-t3709065/page12"
+         }, {
+            "date_added": "13156512127659883",
+            "id": "40",
+            "meta_info": {
+               "last_visited": "13156534690323084",
+               "last_visited_desktop": "13156587064064199"
+            },
+            "name": "Wallpaper Triangles, Moto Droid, Stock, HD, Abstract, #2876",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://wallpapersite.com/abstract/triangles-moto-droid-stock-hd-2876.html"
+         }, {
+            "date_added": "13156936593628489",
+            "id": "41",
+            "meta_info": {
+               "last_visited_desktop": "13156936593633615"
+            },
+            "name": "Beginner Typing Lesson 2 - LEARN TYPING",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.learntyping.org/beginnertypinglesson2.htm"
+         }, {
+            "date_added": "13156959045459972",
+            "id": "42",
+            "meta_info": {
+               "last_visited": "13156959045521377"
+            },
+            "name": "5 Things to Know Before Building Your First Android App",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://learntocodewith.me/programming/android/beginner-app-development/"
+         }, {
+            "date_added": "13157029006637008",
+            "id": "43",
+            "meta_info": {
+               "last_visited": "13157037575169466",
+               "last_visited_desktop": "13157148563519948"
+            },
+            "name": "How To Make A Great IP Project for CBSE Class XII? - Isrg Rajan",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.isrgrajan.com/how-to-make-a-great-ip-project-for-cbse-class-xii.html"
+         }, {
+            "date_added": "13157580052745668",
+            "id": "44",
+            "meta_info": {
+               "last_visited": "13169935553549390",
+               "last_visited_desktop": "13157927443153294"
+            },
+            "name": "Index of /Series/Friends/",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://s1.bia2m.in/Series/Friends/"
+         }, {
+            "date_added": "13157981164881650",
+            "id": "45",
+            "meta_info": {
+               "last_visited_desktop": "13157981164882698"
+            },
+            "name": "Microsoft Excel Online - Work together on Excel spreadsheets",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://office.live.com/start/Excel.aspx?ui=en-US&rs=US&auth=1&nf=1"
+         }, {
+            "date_added": "13158681221508492",
+            "id": "46",
+            "meta_info": {
+               "last_visited": "13158681221530322",
+               "last_visited_desktop": "13158683341518447"
+            },
+            "name": "[TUT][JB] HOW TO THEME SystemUI.apk for TOTA… | Android Development and Hacking",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/showthread.php?t=2203166"
+         }, {
+            "date_added": "13158681226574782",
+            "id": "47",
+            "meta_info": {
+               "last_visited": "13158681226577470",
+               "last_visited_desktop": "13158689142913374"
+            },
+            "name": "[GUIDE] How to add extra option in settings.… | Samsung Galaxy Y GT-S5360",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/showthread.php?t=2518016"
+         }, {
+            "date_added": "13158681234642008",
+            "id": "48",
+            "meta_info": {
+               "last_visited": "13158681234644745"
+            },
+            "name": "Lesson: How to use margins and paddings in Android layout? | Android4Beginners.com",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://android4beginners.com/2013/07/lesson-2-2-how-to-use-margins-and-paddings-in-android-layout/"
+         }, {
+            "date_added": "13158681685497567",
+            "id": "49",
+            "meta_info": {
+               "last_visited": "13158681685501634",
+               "last_visited_desktop": "13158683341165086"
+            },
+            "name": "[Tool]Extract and Repack system .DAT and .IMG on android 5-8 | Android Development and Hacking",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/chef-central/android/tool-extract-repack-dat-img-android-5-8-t3670763/amp/"
+         }, {
+            "date_added": "13159035629911562",
+            "id": "50",
+            "meta_info": {
+               "last_visited": "13159035629957765",
+               "last_visited_desktop": "13159208094751754"
+            },
+            "name": "Multithreading Tutorial - CodeProject",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://googleweblight.com/i?u=https://www.codeproject.com/Articles/14746/Multithreading-Tutorial&grqid=3S93EwAl&hl=en-IN"
+         }, {
+            "date_added": "13159342559478852",
+            "id": "51",
+            "meta_info": {
+               "last_visited": "13169830482945385"
+            },
+            "name": "iYTBP Vanced Downloads",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://iytbp.onlineyoutube.com/"
+         }, {
+            "date_added": "13159561186561991",
+            "id": "52",
+            "meta_info": {
+               "last_visited": "13159901055894936"
+            },
+            "name": "[GUIDE][COMPLETE]How to build ROM with Google Cloud | Android Development and Hacking",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/chef-central/android/guide-how-to-build-rom-google-cloud-t3360430/amp/"
+         }, {
+            "date_added": "13159812536564889",
+            "id": "53",
+            "meta_info": {
+               "last_visited_desktop": "13159812536565665"
+            },
+            "name": "C++ Multithreading - Threading in C++",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.tutorialcup.com/cplusplus/multithreading.htm"
+         }, {
+            "date_added": "13159813248104744",
+            "id": "54",
+            "meta_info": {
+               "last_visited_desktop": "13159813248105691"
+            },
+            "name": "opengapps/aosp_build: AOSP Build system compatible version of Open GApps",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/opengapps/aosp_build"
+         }, {
+            "date_added": "13159820987356275",
+            "id": "55",
+            "meta_info": {
+               "last_visited": "13159820987384958"
+            },
+            "name": "‘Shut coaching centres, they suck’: Kota student’s suicide letter | education$career | Hindustan Times",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://m.hindustantimes.com/education/kota-suicide-helped-many-come-out-of-depression-but-not-myself/story-u1IRTdSFJoGuaIjvN7igSK.html"
+         }, {
+            "date_added": "13159867467392563",
+            "id": "56",
+            "meta_info": {
+               "last_visited": "13169230073990070",
+               "last_visited_desktop": "13160910810805339"
+            },
+            "name": "scripts/Commits-list-with-links WIP.txt at o2 · ezio84/scripts · GitHub",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/ezio84/scripts/blob/o2/My_mods-commits_and_tips/Commits-list-with-links%20WIP.txt#L233"
+         }, {
+            "date_added": "13159878573364666",
+            "id": "57",
+            "meta_info": {
+               "last_visited": "13159880873824232",
+               "last_visited_desktop": "13160907252780429"
+            },
+            "name": "[GUIDE][COMPLETE] Android ROM Development From Source To End",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/chef-central/android/guide-android-rom-development-t2814763"
+         }, {
+            "date_added": "13159886810138596",
+            "id": "58",
+            "name": "Compute Engine - My First Project",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://console.cloud.google.com/compute/instances?project=crack-saga-191509"
+         }, {
+            "date_added": "13159886817300281",
+            "id": "59",
+            "meta_info": {
+               "last_visited": "13169233388471682",
+               "last_visited_desktop": "13160907152374102"
+            },
+            "name": "How to Build Custom Lineage OS ROM - Hacks & Geeks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://hacksandgeeks.com/single-post/2017/04/02/How-to-Build-Custom-Lineage-OS-ROM"
+         }, {
+            "date_added": "13159886821975825",
+            "id": "60",
+            "meta_info": {
+               "last_visited_desktop": "13159886821976467"
+            },
+            "name": "Preparing to Build  |  Android Open Source Project",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://source.android.com/setup/building"
+         }, {
+            "date_added": "13159886826153548",
+            "id": "61",
+            "meta_info": {
+               "last_visited": "13160675011844544",
+               "last_visited_desktop": "13160666722671276"
+            },
+            "name": "irvin016 (Shamith(irvin16))",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/irvin016"
+         }, {
+            "date_added": "13159886832486660",
+            "id": "62",
+            "meta_info": {
+               "last_visited": "13169234202740063",
+               "last_visited_desktop": "13160910203231078"
+            },
+            "name": "Pixel Experience",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/PixelExperience"
+         }, {
+            "date_added": "13160837918376421",
+            "id": "63",
+            "meta_info": {
+               "last_visited_desktop": "13160922079314928"
+            },
+            "name": "Login Form Challenge Solution | Using Python",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://usingpython.com/python-login-form-challenge-solution/"
+         }, {
+            "date_added": "13160862429696324",
+            "id": "64",
+            "meta_info": {
+               "last_visited_desktop": "13171408002813853"
+            },
+            "name": "Making a Stand Alone Executable from a Python Script using PyInstaller",
+            "sync_transaction_version": "8",
+            "type": "url",
+            "url": "https://medium.com/dreamcatcher-its-blog/making-an-stand-alone-executable-from-a-python-script-using-pyinstaller-d1df9170e263"
+         }, {
+            "date_added": "13161241704270107",
+            "id": "65",
+            "meta_info": {
+               "last_visited": "13171917076193019",
+               "last_visited_desktop": "13172411974641028"
+            },
+            "name": "Download center | Pixel Experience",
+            "sync_transaction_version": "238",
+            "type": "url",
+            "url": "https://download.pixelexperience.org/"
+         }, {
+            "date_added": "13161254919823786",
+            "id": "66",
+            "meta_info": {
+               "last_visited_desktop": "13171616567526934"
+            },
+            "name": "Allo for web",
+            "sync_transaction_version": "150",
+            "type": "url",
+            "url": "https://allo.google.com/web"
+         }, {
+            "date_added": "13161464684999339",
+            "id": "67",
+            "meta_info": {
+               "last_visited_desktop": "13161464685251022"
+            },
+            "name": "Basic writing and formatting syntax - User Documentation",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://help.github.com/articles/basic-writing-and-formatting-syntax/"
+         }, {
+            "date_added": "13161468706079259",
+            "id": "68",
+            "meta_info": {
+               "last_visited_desktop": "13166705025678595"
+            },
+            "name": "Important Linux Commands",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www-uxsup.csx.cam.ac.uk/pub/doc/suse/suse9.0/userguide-9.0/ch24s04.html"
+         }, {
+            "date_added": "13161507195638509",
+            "id": "69",
+            "meta_info": {
+               "last_visited": "13170322276713049",
+               "last_visited_desktop": "13169464664708239"
+            },
+            "name": "Asphalt 8: Take off to download 3.4.0k (Mod: lots of money) on Android",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://pdalife.ru/asphalt-8-android-a5592.html"
+         }, {
+            "date_added": "13161779198200060",
+            "id": "70",
+            "name": "Reddit - Piracy - 5 Best Free Movie Sites! [Updated: March 2017]",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://amp.reddit.com/r/Piracy/comments/60tbu9/5_best_free_movie_sites_updated_march_2017/"
+         }, {
+            "date_added": "13162111265898942",
+            "id": "71",
+            "name": "Physical education practical file - Saksham",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.slideshare.net/mobile/saksham1991999/physical-education-practical-file-saksham?qid=3c2bf68a-3228-4d84-9d74-b37949334567&v=&b=&from_search=1"
+         }, {
+            "date_added": "13161685633261446",
+            "id": "72",
+            "meta_info": {
+               "last_visited": "13161685633284370"
+            },
+            "name": "[AINUR AUDIO] [Audiophile] | SAURON MK II … | Android Development and Hacking",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/android/software/soundmod-ainur-audio-t3450516"
+         }, {
+            "date_added": "13163714399004534",
+            "id": "73",
+            "name": "LiquidRemix · GitHub",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/LiquidRemix"
+         }, {
+            "date_added": "13165068348684346",
+            "id": "74",
+            "meta_info": {
+               "last_visited_desktop": "13165068348685656"
+            },
+            "name": "Tutorial: Getting Started",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.winprog.org/tutorial/start.html"
+         }, {
+            "date_added": "13165517087651029",
+            "id": "75",
+            "meta_info": {
+               "last_visited": "13172433438488080",
+               "last_visited_desktop": "13169289100373958"
+            },
+            "name": "Xiaomi Redmi Note 5 / 5 Plus",
+            "sync_transaction_version": "240",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/redmi-note-5"
+         }, {
+            "date_added": "13165672133312950",
+            "id": "76",
+            "meta_info": {
+               "last_visited": "13165672242506289",
+               "last_visited_desktop": "13165672133314738"
+            },
+            "name": "Short Boxed Beard - learn how to cultivate it! | Gillette India",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.gillette.co.in/en-in/shaving-tips/facial-hair-styles/how-to-shave-short-boxed-beard"
+         }, {
+            "date_added": "13165674778544414",
+            "id": "77",
+            "meta_info": {
+               "last_visited": "13165674778555266"
+            },
+            "name": "How To: Find the Best Beard Style for Your Face Shape",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.birchbox.com/guide/article/best-beard-style-for-your-face-shape"
+         }, {
+            "date_added": "13165870029542331",
+            "id": "78",
+            "meta_info": {
+               "last_visited": "13166983705400646"
+            },
+            "name": "Music Player from scratch",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://msdn.microsoft.com/en-us/library/ms972990.aspx"
+         }, {
+            "date_added": "13165933730263788",
+            "id": "79",
+            "meta_info": {
+               "last_visited_desktop": "13165933730265223"
+            },
+            "name": "Icon Archive - Search 601,914 free icons, desktop icons, download icons, social icons, xp icons, vista icons",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.iconarchive.com/"
+         }, {
+            "date_added": "13166785089512607",
+            "id": "80",
+            "meta_info": {
+               "last_visited": "13166983621631403",
+               "last_visited_desktop": "13167135596221209"
+            },
+            "name": "Web Development… How to get started in 2017? – hello JS",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://blog.hellojs.org/web-development-how-to-start-in-2017-b2357febe8ba"
+         }, {
+            "date_added": "13166128564793722",
+            "id": "81",
+            "meta_info": {
+               "last_visited": "13170745363862329"
+            },
+            "name": "Xiaomi Redmi Note 5 Pro",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/redmi-note-5-pro"
+         }, {
+            "date_added": "13166285341928409",
+            "id": "82",
+            "meta_info": {
+               "last_visited": "13172157518570253"
+            },
+            "name": "Xiaomi Redmi Note 3",
+            "sync_transaction_version": "203",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/redmi-note-3/"
+         }, {
+            "date_added": "13166785204140276",
+            "id": "83",
+            "meta_info": {
+               "last_visited_desktop": "13166785204140549"
+            },
+            "name": "The Flask Mega-Tutorial Part I: Hello, World! - miguelgrinberg.com",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"
+         }, {
+            "date_added": "13166611040543750",
+            "id": "84",
+            "meta_info": {
+               "last_visited": "13166611040600231"
+            },
+            "name": "Android Studio for beginners, Part 1: Installation and setup | JavaWorld",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.javaworld.com/article/3095406/android/android-studio-for-beginners-part-1-installation-and-setup.html"
+         }, {
+            "date_added": "13166785304414151",
+            "id": "85",
+            "meta_info": {
+               "last_visited": "13166886998662619",
+               "last_visited_desktop": "13168339346937689"
+            },
+            "name": "Getting Started with Backend Development – codeburst",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://codeburst.io/getting-started-with-backend-development-bfd8299e22e8"
+         }, {
+            "date_added": "13166785575805026",
+            "id": "86",
+            "meta_info": {
+               "last_visited": "13166887024040227",
+               "last_visited_desktop": "13171031795834268"
+            },
+            "name": "The Toolkit of a Full-Stack JavaScript Developer – codeburst",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://codeburst.io/the-toolkit-of-a-full-stack-javascript-developer-a15ebe762f75"
+         }, {
+            "date_added": "13166785736074048",
+            "id": "87",
+            "meta_info": {
+               "last_visited": "13166887072732252",
+               "last_visited_desktop": "13171037005100262"
+            },
+            "name": "A practical road-map for web development. – codeburst",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://codeburst.io/a-practical-approach-to-web-development-1ee37a4ad829"
+         }, {
+            "date_added": "13166795125418901",
+            "id": "88",
+            "meta_info": {
+               "last_visited_desktop": "13172310680442939"
+            },
+            "name": "Catalog | Codecademy",
+            "sync_transaction_version": "220",
+            "type": "url",
+            "url": "https://www.codecademy.com/catalog/subject/web-development"
+         }, {
+            "date_added": "13166983543435982",
+            "id": "89",
+            "meta_info": {
+               "last_visited": "13167754764362146",
+               "last_visited_desktop": "13172761219944070"
+            },
+            "name": "Beautiful Free Images | Unsplash",
+            "sync_transaction_version": "276",
+            "type": "url",
+            "url": "https://unsplash.com/"
+         }, {
+            "date_added": "13167409743242903",
+            "id": "90",
+            "meta_info": {
+               "last_visited": "13167428244261387",
+               "last_visited_desktop": "13171875352291591"
+            },
+            "name": "GitHub - derf/feh: fast and light Imlib2-based image viewer",
+            "sync_transaction_version": "177",
+            "type": "url",
+            "url": "https://github.com/derf/feh"
+         }, {
+            "date_added": "13167577445337115",
+            "id": "91",
+            "name": "The Biggest Organized Crime Groups in the World | Fortune",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://fortune.com/2014/09/14/biggest-organized-crime-groups-in-the-world/"
+         }, {
+            "date_added": "13167748257148407",
+            "id": "92",
+            "meta_info": {
+               "last_visited_desktop": "13167749145964275"
+            },
+            "name": "Web Projects | Codecademy",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.codecademy.com/en/tracks/projects"
+         }, {
+            "date_added": "13168441537948785",
+            "id": "93",
+            "meta_info": {
+               "last_visited_desktop": "13171047191204401"
+            },
+            "name": "Photo Editor | BeFunky: Free Online Photo Editor",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.befunky.com/create/"
+         }, {
+            "date_added": "13167850218695320",
+            "id": "94",
+            "meta_info": {
+               "last_visited": "13167850218704600"
+            },
+            "name": "Is it possible to \"decompile\" a Windows .exe? Or at least view the Assembly? - Stack Overflow",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/273145/is-it-possible-to-decompile-a-windows-exe-or-at-least-view-the-assembly"
+         }, {
+            "date_added": "13167857453919138",
+            "id": "95",
+            "meta_info": {
+               "last_visited": "13167857453922524"
+            },
+            "name": "Fastest way to Unlock the Bootlader | Xiaomi Redmi Note 4",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://forum.xda-developers.com/redmi-note-4/how-to/fastest-to-unlock-bootlader-t3689116"
+         }, {
+            "date_added": "13168444535566684",
+            "id": "96",
+            "meta_info": {
+               "last_visited_desktop": "13171057693133795"
+            },
+            "name": "Explore - Coolors.co",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://coolors.co/browser"
+         }, {
+            "date_added": "13168444541948304",
+            "id": "97",
+            "meta_info": {
+               "last_visited_desktop": "13172254550733662"
+            },
+            "name": "Google Fonts",
+            "sync_transaction_version": "214",
+            "type": "url",
+            "url": "https://fonts.google.com/"
+         }, {
+            "date_added": "13170671298525163",
+            "id": "98",
+            "meta_info": {
+               "last_visited_desktop": "13170671298525660"
+            },
+            "name": "Markdown Cheatsheet · adam-p/markdown-here Wiki",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
+         }, {
+            "date_added": "13171019647020976",
+            "id": "99",
+            "meta_info": {
+               "last_visited": "13171188835610646",
+               "last_visited_desktop": "13171019647054704"
+            },
+            "name": "Downloading File /i3/17.1.10 - Manjarolinux Community - OSDN",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://osdn.net/projects/manjaro-community/storage/i3/17.1.10/"
+         }, {
+            "date_added": "13171043040464132",
+            "id": "100",
+            "meta_info": {
+               "last_visited_desktop": "13171532476387488"
+            },
+            "name": "Page Title",
+            "sync_transaction_version": "41",
+            "type": "url",
+            "url": "file:///E:/web/Nana/index.html"
+         }, {
+            "date_added": "13171410243700606",
+            "id": "102",
+            "meta_info": {
+               "last_visited_desktop": "13171613122540548"
+            },
+            "name": "2017ENGG_CAP1_AI_CutOff.xlsx",
+            "sync_transaction_version": "57",
+            "type": "url",
+            "url": "https://d2cyt36b7wnvt9.cloudfront.net/exams/wp-content/uploads/2017/11/08182009/MHT-CET-Round-1-cutoff-All-india-1.pdf"
+         }, {
+            "date_added": "13171391505737764",
+            "id": "104",
+            "meta_info": {
+               "last_visited_desktop": "13171890881776119"
+            },
+            "name": "Your Perfect Kickstart To Shell Scripting – codeburst",
+            "sync_transaction_version": "183",
+            "type": "url",
+            "url": "https://codeburst.io/your-perfect-kickstart-to-shell-scripting-857b81c0939b"
+         }, {
+            "date_added": "13171442459576097",
+            "id": "106",
+            "meta_info": {
+               "last_visited_desktop": "13171442459577668"
+            },
+            "name": "Working with Arrays in Linux Shell Scripting – Part 8",
+            "sync_transaction_version": "24",
+            "type": "url",
+            "url": "https://www.tecmint.com/working-with-arrays-in-linux-shell-scripting/"
+         }, {
+            "date_added": "13171393574704327",
+            "id": "108",
+            "meta_info": {
+               "last_visited_desktop": "13171644563822469"
+            },
+            "name": "Suddenly no sound working in i3 - Support for Community Editions - Manjaro Linux Forum",
+            "sync_transaction_version": "157",
+            "type": "url",
+            "url": "https://forum.manjaro.org/t/suddenly-no-sound-working-in-i3/35500"
+         }, {
+            "date_added": "13171403376145256",
+            "id": "109",
+            "meta_info": {
+               "last_visited_desktop": "13172688789986430"
+            },
+            "name": "256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL",
+            "sync_transaction_version": "273",
+            "type": "url",
+            "url": "https://jonasjacek.github.io/colors/"
+         }, {
+            "date_added": "13171580807791814",
+            "id": "111",
+            "meta_info": {
+               "last_visited_desktop": "13171613108830861"
+            },
+            "name": "Unsplash Source | A Simple API for Embedding Free Photos from Unsplash",
+            "sync_transaction_version": "56",
+            "type": "url",
+            "url": "https://source.unsplash.com/"
+         }, {
+            "date_added": "13171644304846798",
+            "id": "113",
+            "meta_info": {
+               "last_visited_desktop": "13171644304916987"
+            },
+            "name": "Introduction",
+            "sync_transaction_version": "154",
+            "type": "url",
+            "url": "http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/intro.html"
+         }, {
+            "date_added": "13171647664649872",
+            "id": "114",
+            "meta_info": {
+               "last_visited_desktop": "13171875083073601"
+            },
+            "name": "NCURSES Programming HOWTO",
+            "sync_transaction_version": "175",
+            "type": "url",
+            "url": "http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/"
+         }, {
+            "date_added": "13172127155203127",
+            "id": "116",
+            "meta_info": {
+               "last_visited": "13172127155225635",
+               "last_visited_desktop": "13172504266540371"
+            },
+            "name": "ololo - video streaming link search engine",
+            "sync_transaction_version": "254",
+            "type": "url",
+            "url": "https://ololo.to/"
+         }, {
+            "date_added": "13172329480474356",
+            "id": "118",
+            "meta_info": {
+               "last_visited": "13172739452990743",
+               "last_visited_desktop": "13172410088983269"
+            },
+            "name": "MW325R",
+            "sync_transaction_version": "274",
+            "type": "url",
+            "url": "http://192.168.1.1/"
+         }, {
+            "date_added": "13172484427567811",
+            "id": "120",
+            "meta_info": {
+               "last_visited_desktop": "13172669310902230"
+            },
+            "name": "Free Netflix Account Cookies [30+ Updated Every Hour] - NEW METHOD",
+            "sync_transaction_version": "267",
+            "type": "url",
+            "url": "https://tecknity.com/free-netflix-account-cookies"
+         }, {
+            "date_added": "13172486852050024",
+            "id": "121",
+            "meta_info": {
+               "last_visited_desktop": "13172569641786944"
+            },
+            "name": "Netflix-cookie",
+            "sync_transaction_version": "263",
+            "type": "url",
+            "url": "https://paste.ee/r/5MHkw"
+         }, {
+            "date_added": "13172674744807621",
+            "id": "123",
+            "meta_info": {
+               "last_visited_desktop": "13172674744808070"
+            },
+            "name": "Android Basics: User Interface - Udacity",
+            "sync_transaction_version": "271",
+            "type": "url",
+            "url": "https://classroom.udacity.com/courses/ud834/lessons/4330701752/concepts/42482285940923#"
+         } ],
+         "date_added": "13171322859943021",
+         "date_modified": "13172739562794407",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

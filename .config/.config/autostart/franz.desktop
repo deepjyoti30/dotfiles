@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=franz
+Comment=franz Startup Script
+Exec="/opt/Franz/franz" 
+StartupNotify=false
+Terminal=false

@@ -1,0 +1,191 @@
+{
+   "11138431688427255": {
+      "message": "Tilføj etiket"
+   },
+   "1122146167985532789": {
+      "message": "i går"
+   },
+   "125608713654167241": {
+      "message": "Turkis"
+   },
+   "1333255388111908292": {
+      "message": "Dagligvarer"
+   },
+   "1478393252643397554": {
+      "message": "Orange"
+   },
+   "1524000077092854247": {
+      "message": "Linket blev fjernet."
+   },
+   "1857224091554117760": {
+      "message": "Rød"
+   },
+   "1988879857371940328": {
+      "message": "Fjern etiketten $1​"
+   },
+   "2269286357657606271": {
+      "message": "Adressen til siden er blevet fjernet"
+   },
+   "2633701539319779732": {
+      "message": "Send feedback (kun dogfood)"
+   },
+   "2803553109654833664": {
+      "message": "Lyserød"
+   },
+   "2814668529404267263": {
+      "message": "Log ind"
+   },
+   "2973306402585941108": {
+      "message": "Morgen"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Aften"
+   },
+   "3249966726137025950": {
+      "message": "Samarbejdspartners familiegruppe"
+   },
+   "3385831848537487538": {
+      "message": "Rejser"
+   },
+   "3551522853788442530": {
+      "message": "Gå tilbage"
+   },
+   "3555297636767750285": {
+      "message": "Grøn"
+   },
+   "4047470251075013857": {
+      "message": "Fjern link til side"
+   },
+   "4153306913989815073": {
+      "message": "Privat billede kan ikke gemmes."
+   },
+   "4343848624651344174": {
+      "message": "Eftermiddag"
+   },
+   "4409688924773693376": {
+      "message": "Gemmer"
+   },
+   "4439831283519683004": {
+      "message": "Grå"
+   },
+   "4533605085334699862": {
+      "message": "Citater"
+   },
+   "456512308416555173": {
+      "message": "Bøger"
+   },
+   "4586373282767984140": {
+      "message": "Gul"
+   },
+   "4840513623749850224": {
+      "message": "Film"
+   },
+   "5061847320181369179": {
+      "message": "Skriv en note…"
+   },
+   "5403636185480096151": {
+      "message": "Tv"
+   },
+   "5446819851466650207": {
+      "message": "Titel"
+   },
+   "5478662967017843220": {
+      "message": "Mørkeblå"
+   },
+   "577539731512680648": {
+      "message": "Åbn i Keep"
+   },
+   "5782779707150593352": {
+      "message": "Offline"
+   },
+   "6175061706159277390": {
+      "message": "Sidens adresse er gemt"
+   },
+   "6252259197986158120": {
+      "message": "I går"
+   },
+   "6324768448533022780": {
+      "message": "$1​ $2​"
+   },
+   "6366376928558090914": {
+      "message": "Mad"
+   },
+   "6428000916830484004": {
+      "message": "Brun"
+   },
+   "6472238195689960152": {
+      "message": "Hvid"
+   },
+   "6497197865876438261": {
+      "message": "Musik"
+   },
+   "6510131849363684615": {
+      "message": "I morgen"
+   },
+   "6579707685908557993": {
+      "message": "Sen eftermiddag"
+   },
+   "689017442055275529": {
+      "message": "Familiegruppen, der tilhører $1​"
+   },
+   "6932835915069019531": {
+      "message": "Fjern billede"
+   },
+   "7653702763016575386": {
+      "message": "Blå"
+   },
+   "7669846901402551021": {
+      "message": "I dag"
+   },
+   "7728066040934031356": {
+      "message": "Lilla"
+   },
+   "7733569569331009603": {
+      "message": "Etiketten $1​ blev tilføjet."
+   },
+   "8125425371755035523": {
+      "message": "Fortryd"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​ kl. $2​"
+   },
+   "8169232898590866289": {
+      "message": "+ Opret \"$1​\""
+   },
+   "8543539682750430072": {
+      "message": "Listeredigering er ikke tilgængelig."
+   },
+   "8602525917014156029": {
+      "message": "Steder"
+   },
+   "8945447668405930101": {
+      "message": "Du skal logge ind for at bruge Chrome-udvidelsen Google Keep"
+   },
+   "9116610943383363940": {
+      "message": "Gemt"
+   },
+   "911698676339750373": {
+      "message": "Familiegruppe"
+   },
+   "9218540601355708194": {
+      "message": "Slet note"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Gem i Google Keep med et enkelt klik."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Chrome-udvidelsen Google Keep"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Gem i Keep"
+   }
+}

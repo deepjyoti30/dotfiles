@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+ <trackList>
+  <track>
+   <location>file:///run/media/deepjyoti30/DeepDrive/MyStuff/Movies/Dhol.mp4</location>
+   <title>V!S!T &amp; SupPort -::- World4uFRee.ws -::-  Dhol 2007 Hindi 720P DvdRip</title>
+   <extension application="http://www.gnome.org">
+     <starttime>8824</starttime>
+     <playing>true</playing>
+   </extension>
+  </track>
+ </trackList>
+</playlist>

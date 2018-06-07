@@ -1,0 +1,46 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Pale Moon.desktop
+x-scheme-handler/https=userapp-Pale Moon.desktop
+x-scheme-handler/ftp=userapp-Pale Moon.desktop
+x-scheme-handler/chrome=userapp-Pale Moon.desktop
+text/html=userapp-Pale Moon.desktop
+application/x-extension-htm=userapp-Pale Moon.desktop
+application/x-extension-html=userapp-Pale Moon.desktop
+application/x-extension-shtml=userapp-Pale Moon.desktop
+application/xhtml+xml=userapp-Pale Moon.desktop
+application/x-extension-xhtml=userapp-Pale Moon.desktop
+application/x-extension-xht=userapp-Pale Moon.desktop
+image/jpeg=viewnior.desktop;gpicview.desktop;
+image/png=viewnior.desktop;gpicview.desktop;
+text/plain=mousepad.desktop
+x-scheme-handler/mailto=userapp-Thunderbird.desktop
+message/rfc822=userapp-Thunderbird.desktop
+application/pdf=epdfview.desktop
+application/x-bittorrent=transmission-gtk.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Pale Moon.desktop;
+x-scheme-handler/https=userapp-Pale Moon.desktop;
+x-scheme-handler/ftp=userapp-Pale Moon.desktop;
+x-scheme-handler/chrome=userapp-Pale Moon.desktop;
+text/html=atom.desktop;google-chrome-beta.desktop;userapp-Pale Moon.desktop;
+application/x-extension-htm=userapp-Pale Moon.desktop;
+application/x-extension-html=userapp-Pale Moon.desktop;
+application/x-extension-shtml=userapp-Pale Moon.desktop;
+application/xhtml+xml=userapp-Pale Moon.desktop;
+application/x-extension-xhtml=userapp-Pale Moon.desktop;
+application/x-extension-xht=userapp-Pale Moon.desktop;
+image/jpeg=gimp.desktop;viewnior.desktop;gpicview.desktop;
+image/png=gimp.desktop;viewnior.desktop;gpicview.desktop;
+text/plain=atom.desktop;visual-studio-code.desktop;mousepad.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird.desktop;
+message/rfc822=userapp-Thunderbird.desktop;
+application/pdf=epdfview.desktop;
+application/x-bittorrent=transmission-gtk.desktop;
+text/css=atom.desktop;visual-studio-code.desktop;
+text/x-matlab=visual-studio-code.desktop;
+application/x-shellscript=atom.desktop;visual-studio-code.desktop;
+text/x-python=atom.desktop;visual-studio-code.desktop;
+text/x-log=atom.desktop;
+video/mp4=vlc.desktop;org.gnome.Totem.desktop;
+application/xml=atom.desktop;

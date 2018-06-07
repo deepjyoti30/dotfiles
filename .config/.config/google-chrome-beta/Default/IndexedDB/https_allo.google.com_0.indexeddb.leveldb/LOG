@@ -1,0 +1,96 @@
+2018/05/24-11:52:49.246 3881 Reusing MANIFEST /home/deepjyoti30/.config/google-chrome-beta/Default/IndexedDB/https_allo.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/05/24-11:52:49.246 3881 Recovering log #40
+2018/05/24-11:52:49.246 3881 Reusing old log /home/deepjyoti30/.config/google-chrome-beta/Default/IndexedDB/https_allo.google.com_0.indexeddb.leveldb/000040.log 
+2018/05/24-12:18:16.525 24738 Level-0 table #45: started
+2018/05/24-12:18:16.667 24738 Level-0 table #45: 3896443 bytes OK
+2018/05/24-12:18:16.726 24738 Delete type=0 #40
+2018/05/24-12:48:29.882 24738 Level-0 table #47: started
+2018/05/24-12:48:30.057 24738 Level-0 table #47: 3863357 bytes OK
+2018/05/24-12:48:30.117 24738 Delete type=0 #44
+2018/05/24-12:48:47.209 24738 Compacting 1@0 + 1@1 files
+2018/05/24-12:48:47.365 24738 Generated table #48@0: 376 keys, 704961 bytes
+2018/05/24-12:48:47.366 24738 Compacted 1@0 + 1@1 files => 704961 bytes
+2018/05/24-12:48:47.421 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-12:48:47.422 24738 Delete type=2 #45
+2018/05/24-12:48:47.423 24738 Delete type=2 #47
+2018/05/24-12:54:41.822 24738 Level-0 table #50: started
+2018/05/24-12:54:41.961 24738 Level-0 table #50: 3861419 bytes OK
+2018/05/24-12:54:42.062 24738 Delete type=0 #46
+2018/05/24-12:54:42.711 24738 Compacting 1@0 + 1@1 files
+2018/05/24-12:54:42.788 24738 Generated table #51@0: 386 keys, 705786 bytes
+2018/05/24-12:54:42.788 24738 Compacted 1@0 + 1@1 files => 705786 bytes
+2018/05/24-12:54:42.887 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-12:54:42.887 24738 Delete type=2 #50
+2018/05/24-12:54:42.888 24738 Delete type=2 #48
+2018/05/24-13:05:06.377 24738 Level-0 table #53: started
+2018/05/24-13:05:06.516 24738 Level-0 table #53: 3862596 bytes OK
+2018/05/24-13:05:06.596 24738 Delete type=0 #49
+2018/05/24-13:05:09.147 24738 Compacting 1@0 + 1@1 files
+2018/05/24-13:05:09.223 24738 Generated table #54@0: 394 keys, 706099 bytes
+2018/05/24-13:05:09.223 24738 Compacted 1@0 + 1@1 files => 706099 bytes
+2018/05/24-13:05:09.312 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-13:05:09.312 24738 Delete type=2 #53
+2018/05/24-13:05:09.314 24738 Delete type=2 #51
+2018/05/24-13:05:27.659 24738 Level-0 table #56: started
+2018/05/24-13:05:27.823 24738 Level-0 table #56: 3875995 bytes OK
+2018/05/24-13:05:27.931 24738 Delete type=0 #52
+2018/05/24-13:05:36.124 24738 Compacting 1@0 + 1@1 files
+2018/05/24-13:05:36.253 24738 Generated table #57@0: 555 keys, 1172668 bytes
+2018/05/24-13:05:36.253 24738 Compacted 1@0 + 1@1 files => 1172668 bytes
+2018/05/24-13:05:36.385 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-13:05:36.385 24738 Delete type=2 #54
+2018/05/24-13:05:36.386 24738 Delete type=2 #56
+2018/05/24-13:06:07.146 24738 Level-0 table #59: started
+2018/05/24-13:06:07.380 24738 Level-0 table #59: 3872690 bytes OK
+2018/05/24-13:06:07.510 24738 Delete type=0 #55
+2018/05/24-13:06:35.774 24738 Compacting 1@0 + 1@1 files
+2018/05/24-13:06:35.860 24738 Generated table #60@0: 565 keys, 1128883 bytes
+2018/05/24-13:06:35.860 24738 Compacted 1@0 + 1@1 files => 1128883 bytes
+2018/05/24-13:06:36.022 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-13:31:38.379 24738 Level-0 table #62: started
+2018/05/24-13:31:38.542 24738 Level-0 table #62: 3686253 bytes OK
+2018/05/24-13:31:38.658 24738 Delete type=2 #57
+2018/05/24-13:31:38.659 24738 Delete type=2 #59
+2018/05/24-13:31:38.660 24738 Delete type=0 #58
+2018/05/24-13:31:39.501 24738 Compacting 1@0 + 1@1 files
+2018/05/24-13:31:39.585 24738 Generated table #63@0: 581 keys, 1116378 bytes
+2018/05/24-13:31:39.585 24738 Compacted 1@0 + 1@1 files => 1116378 bytes
+2018/05/24-13:31:39.797 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-13:31:39.797 24738 Delete type=2 #62
+2018/05/24-13:31:39.798 24738 Delete type=2 #60
+2018/05/24-13:54:10.129 24738 Level-0 table #65: started
+2018/05/24-13:54:10.430 24738 Level-0 table #65: 3754026 bytes OK
+2018/05/24-13:54:10.498 24738 Delete type=0 #61
+2018/05/24-13:54:11.517 24738 Compacting 1@0 + 1@1 files
+2018/05/24-13:54:11.642 24738 Generated table #66@0: 609 keys, 1150499 bytes
+2018/05/24-13:54:11.642 24738 Compacted 1@0 + 1@1 files => 1150499 bytes
+2018/05/24-13:54:11.747 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-13:54:11.747 24738 Delete type=2 #63
+2018/05/24-13:54:11.748 24738 Delete type=2 #65
+2018/05/24-14:22:44.516 24738 Level-0 table #68: started
+2018/05/24-14:22:44.672 24738 Level-0 table #68: 3740498 bytes OK
+2018/05/24-14:22:44.792 24738 Delete type=0 #64
+2018/05/24-14:22:51.767 24738 Compacting 1@0 + 1@1 files
+2018/05/24-14:22:51.876 24738 Generated table #69@0: 739 keys, 1186588 bytes
+2018/05/24-14:22:51.876 24738 Compacted 1@0 + 1@1 files => 1186588 bytes
+2018/05/24-14:22:51.954 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-14:22:51.954 24738 Delete type=2 #66
+2018/05/24-14:22:51.955 24738 Delete type=2 #68
+2018/05/24-14:23:10.950 24738 Level-0 table #71: started
+2018/05/24-14:23:11.124 24738 Level-0 table #71: 3706596 bytes OK
+2018/05/24-14:23:11.236 24738 Delete type=0 #67
+2018/05/24-14:23:17.263 24738 Compacting 1@0 + 1@1 files
+2018/05/24-14:23:17.380 24738 Generated table #72@0: 749 keys, 1186340 bytes
+2018/05/24-14:23:17.380 24738 Compacted 1@0 + 1@1 files => 1186340 bytes
+2018/05/24-14:23:17.458 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-14:23:17.458 24738 Delete type=2 #69
+2018/05/24-14:23:17.458 24738 Delete type=2 #71
+2018/05/24-14:23:31.458 24738 Level-0 table #74: started
+2018/05/24-14:23:31.915 24738 Level-0 table #74: 3741828 bytes OK
+2018/05/24-14:23:32.118 24738 Delete type=0 #70
+2018/05/24-14:38:21.674 24738 Compacting 1@0 + 1@1 files
+2018/05/24-14:38:23.280 24738 Generated table #75@0: 759 keys, 1186887 bytes
+2018/05/24-14:38:23.280 24738 Compacted 1@0 + 1@1 files => 1186887 bytes
+2018/05/24-14:38:23.380 24738 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/05/24-14:38:23.412 24738 Delete type=2 #72
+2018/05/24-14:38:23.412 24738 Delete type=2 #74

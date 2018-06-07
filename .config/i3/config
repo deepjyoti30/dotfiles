@@ -77,8 +77,9 @@ bindsym $mod+Shift+q kill
 
 
 # Lock
-bindsym $mod+shift+l exec --no-startup-id blurlock
-#betterlockscreen -l
+bindsym $mod+shift+l exec ~/.i3/lock.sh
+#betterlockscreen -l #--no-startup-id blurlock
+#
 
 # Open Rofi
 bindsym $mod+space exec "rofi -modi run,drun,window -show drun"
@@ -219,22 +220,22 @@ bindsym $mod+Shift+0 move container to workspace number 10
 # Always move windows to specific workspaces
 assign [class="Atom"] → 2
 assign [class="Google-chrome-beta"] → 3
-assign [class="Nautilus"] → 4
+assign [class="Franz"] → 4
 assign [class="cmus"] → 5
-assign [class="allo"] → 6
+assign [class="Nautilus"] → 6
 
 for_window [window_role="term"] move to workspace 1, move left
 for_window [window_role="cmatrix"] move to workspace 1, move right
 for_window [class="Atom"] move to workspace 2
 for_window [class="Google-chrome-beta"] move to workspace 3
-for_window [class="Nautilus"] move to workspace 4
+for_window [class="Franz"] move to workspace 4
 for_window [window_role="cmus"] move to workspace 5, move up
 for_window [window_role="cava"] move to workspace 5, move down
 #for_window [class="cmus"] move to workspace 5
-for_window [class="allo"] move to workspace 6
+for_window [class="Nautilus"] move to workspace 6
 
 # Setup floating windows
-for_window [class="allo"] floating enable, resize set 1200 800
+for_window [class="Franz"] floating enable, resize set 1200 800
 #for_window [class="feh"] floating enable, resize set 1440 900
 #for_window [class="Lxappearance"] floating enable, resize set 900 600
 for_window [class="Nitrogen"] floating enable, resize set 900 600
@@ -275,7 +276,7 @@ exec_always --no-startup-id fix_xcursor
 # exec --no-startup-id start_conky_green
 
 # Auto lock
-exec --no-startup-id xautolock -time 10 -locker blurlock
+exec --no-startup-id xautolock -time 10 -locker "sh ~/.i3/lock.sh"
 
 # Kill all opened environment apps
 exec_always --no-startup-id "killall -q polybar sxhkd compton nitrogen dunst"
@@ -332,11 +333,10 @@ exec_always --no-startup-id "sh $HOME/.i3/grab_paper.sh"
 
 # Workspace 1
 exec "termite"
-exec "termite -e cmatrix"
 
 
 # Workspace 2
-exec atom
+# exec atom
 
 
 # Workspace 3
@@ -344,14 +344,14 @@ exec google-chrome-beta
 
 
 # Workspace 4
-exec nautilus
+# exec franz
 
 # Workspace 5
-exec "termite -e cmus"
-exec "termite -e cava"
+# exec cmus
+#exec "termite -e cava"
 
 # Workspace 6
-exec "google-chrome-beta --app=https://allo.google.com/web"
+exec nautilus
 
 # Workspace 6
 #exec nautilus

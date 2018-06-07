@@ -1,0 +1,191 @@
+{
+   "11138431688427255": {
+      "message": "Lisää tunniste"
+   },
+   "1122146167985532789": {
+      "message": "eilen"
+   },
+   "125608713654167241": {
+      "message": "Turkoosi"
+   },
+   "1333255388111908292": {
+      "message": "Ruokaostokset"
+   },
+   "1478393252643397554": {
+      "message": "Oranssi"
+   },
+   "1524000077092854247": {
+      "message": "Linkki on poistettu."
+   },
+   "1857224091554117760": {
+      "message": "Punainen"
+   },
+   "1988879857371940328": {
+      "message": "Poista tunniste $1​"
+   },
+   "2269286357657606271": {
+      "message": "Sivun osoite on poistettu"
+   },
+   "2633701539319779732": {
+      "message": "Lähetä palautetta (vain testaajille)"
+   },
+   "2803553109654833664": {
+      "message": "Vaaleanpunainen"
+   },
+   "2814668529404267263": {
+      "message": "Kirjaudu sisään"
+   },
+   "2973306402585941108": {
+      "message": "Aamu"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Yö"
+   },
+   "3249966726137025950": {
+      "message": "Yhteiskäyttäjän perheryhmä"
+   },
+   "3385831848537487538": {
+      "message": "Matkailu"
+   },
+   "3551522853788442530": {
+      "message": "Takaisin"
+   },
+   "3555297636767750285": {
+      "message": "Vihreä"
+   },
+   "4047470251075013857": {
+      "message": "Poista sivun linkki"
+   },
+   "4153306913989815073": {
+      "message": "Yksityistä kuvaa ei voi tallentaa."
+   },
+   "4343848624651344174": {
+      "message": "Iltapäivä"
+   },
+   "4409688924773693376": {
+      "message": "Tallennetaan"
+   },
+   "4439831283519683004": {
+      "message": "Harmaa"
+   },
+   "4533605085334699862": {
+      "message": "Lainaukset"
+   },
+   "456512308416555173": {
+      "message": "Kirjat"
+   },
+   "4586373282767984140": {
+      "message": "Keltainen"
+   },
+   "4840513623749850224": {
+      "message": "Elokuvat"
+   },
+   "5061847320181369179": {
+      "message": "Tee muistiinpano…"
+   },
+   "5403636185480096151": {
+      "message": "Televisio"
+   },
+   "5446819851466650207": {
+      "message": "Otsikko"
+   },
+   "5478662967017843220": {
+      "message": "Tummansininen"
+   },
+   "577539731512680648": {
+      "message": "Avaa Keepissä"
+   },
+   "5782779707150593352": {
+      "message": "Offline-tila"
+   },
+   "6175061706159277390": {
+      "message": "Sivun osoite tallennettu"
+   },
+   "6252259197986158120": {
+      "message": "Eilen"
+   },
+   "6324768448533022780": {
+      "message": "$1​ $2​"
+   },
+   "6366376928558090914": {
+      "message": "Ruoka"
+   },
+   "6428000916830484004": {
+      "message": "Ruskea"
+   },
+   "6472238195689960152": {
+      "message": "Valkoinen"
+   },
+   "6497197865876438261": {
+      "message": "Musiikki"
+   },
+   "6510131849363684615": {
+      "message": "Huomenna"
+   },
+   "6579707685908557993": {
+      "message": "Ilta"
+   },
+   "689017442055275529": {
+      "message": "Käyttäjän $1​ perheryhmä"
+   },
+   "6932835915069019531": {
+      "message": "Poista kuva"
+   },
+   "7653702763016575386": {
+      "message": "Sininen"
+   },
+   "7669846901402551021": {
+      "message": "Tänään"
+   },
+   "7728066040934031356": {
+      "message": "Purppura"
+   },
+   "7733569569331009603": {
+      "message": "Tunniste $1​ lisätty."
+   },
+   "8125425371755035523": {
+      "message": "Kumoa"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8169232898590866289": {
+      "message": "+ luo $1​"
+   },
+   "8543539682750430072": {
+      "message": "Luettelon muokkaaminen ei ole käytettävissä."
+   },
+   "8602525917014156029": {
+      "message": "Paikat"
+   },
+   "8945447668405930101": {
+      "message": "Sinun täytyy kirjautua sisään, jotta voit käyttää Google Keepin Chrome-laajennusta."
+   },
+   "9116610943383363940": {
+      "message": "Tallennettu"
+   },
+   "911698676339750373": {
+      "message": "Perheryhmä"
+   },
+   "9218540601355708194": {
+      "message": "Poista muistiinpano"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Tallenna Google Keepiin yhdellä klikkauksella!"
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keepin Chrome-laajennus"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Tallenna Keepiin"
+   }
+}
