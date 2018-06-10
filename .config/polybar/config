@@ -20,12 +20,12 @@ margin-bottom = 0
 
 [bar/toolbar]
 width = 100%
-height = 28
+height = 30
 enable-ipc = true
 
 font-0 = Fira Code:pixelsize=11;3
 font-1 = octicons:pixelsize=14;3
-font-2 = Weather Icons:size=14;4
+font-2 = Weather Icons:size=12;4
 font-3 = FontAwesome5Free:style=Solid:pixelsize=14;4
 font-4 = FontAwesome5Brands:style=Solid:pixelsize=14;4
 font-5 = MaterialIcons:pixelsize=13;4
@@ -39,8 +39,9 @@ module-margin-right = 1
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-modules-left = song-menu song
-modules-center = xwindow
+modules-left = battery ram cpu weather
+modules-center = song prev-song pp next-song
+; xwindow
 modules-right = wifi date clock
 
 
@@ -57,10 +58,11 @@ tray-transparent = false
 font-0 = Fira Code:pixelsize=11;3
 font-1 = octicons:pixelsize=14;3
 font-2 = Weather Icons:size=14;4
-font-3 = FontAwesome5Free:style=Solid:pixelsize=14;4
-font-4 = FontAwesome5Brands:style=Solid:pixelsize=14;4
+font-3 = FontAwesome5Free:style=Solid:pixelsize=12;4
+font-4 = FontAwesome5Brands:style=Solid:pixelsize=12;4
 font-5 = MaterialIcons:pixelsize=13;4
 font-6 = Wuncon Siji:pixelsize=13;4
+font-7 = FontAwesome5Free:style=Regular:pixelsize=12
 
 padding-left = 1
 padding-right = 2
@@ -69,12 +71,20 @@ module-margin-right = 1
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-modules-left = battery temperature ram cpu 
+modules-left = fs temperature
 modules-center = i3
-modules-right = keyboard weather powermenu tray
+modules-right = keyboard powermenu tray
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
+
+[module/fs]
+type = custom/script
+exec = $HOME/.config/polybar/fs.sh
+interval = 0.25
+format-foreground = ${colors.green}
+
+label = %output%
 
 [module/battery]
 type = internal/battery
@@ -176,7 +186,7 @@ label-disconnected = %{A:wicd-client &:} Disconnected%{A}
 type = internal/cpu
 interval = 1
 
-format-foreground = ${colors.yellow}
+format-foreground = ${colors.magenta}
 
 label =  %{A:termite -e vtop &:}%percentage%%
 
@@ -187,16 +197,40 @@ type = custom/script
 exec = $HOME/.config/polybar/temperature.sh
 interval = 1
 
-format-foreground = ${colors.magenta}
+format-foreground = ${colors.yellow}
 
 label =  %output%°C
 
 [module/song]
 type = custom/script
 exec = $HOME/.config/polybar/currentcmus.sh
-click-left =  sh $HOME/.config/polybar/pp.sh
+;click-left =  sh $HOME/.config/polybar/pp.sh
 interval = 0.25
 format-foreground = ${colors.green}
+
+label =  %output%
+
+[module/next-song]
+type = custom/script
+exec = $HOME/.config/polybar/shownext.sh
+click-left = sh $HOME/.config/polybar/next.sh
+interval = 0.25
+
+label = %output%
+
+[module/prev-song]
+type = custom/script
+exec = $HOME/.config/polybar/showprev.sh
+click-left = sh $HOME/.config/polybar/prev.sh
+interval = 0.25
+
+label = %output%
+
+[module/pp]
+type = custom/script
+exec = $HOME/.config/polybar/showpp.sh
+click-left = sh $HOME/.config/polybar/pp.sh
+interval = 0.25
 
 label = %output%
 
@@ -211,7 +245,7 @@ label =  %{A:LANG=en_US.utf8 TERM=xterm-256color termite -e vtop &:}%percenta
 
 
 [module/weather]
-label-padding-left = 1
+label-padding-left = 0
 type = custom/script
 exec = "sh $HOME/.config/polybar/weather.sh"
 interval = 600
@@ -274,7 +308,7 @@ format-muted-prefix = " "
 label-muted =  mute
 label-muted-foreground = ${colors.red}
 
-[module/pp]
+[module/playp]
 type = custom/ipc
 hook-0 = sh $HOME/.config/polybar/showpp.sh
 hook-1 = sh $HOME/.config/polybar/pp.sh
@@ -315,7 +349,7 @@ menu-0-0-exec = cmus-remote -r
 menu-0-1 = 
 menu-0-1-exec = sh $HOME/.config/polybar/pp.sh
 menu-0-2 = 
-menu-0-2-exec = cmus-remote -n 
+menu-0-2-exec = cmus-remote -n
 
 [module/powermenu]
 type = custom/menu
@@ -332,8 +366,8 @@ menu-0-0 = Reboot
 menu-0-0-exec = menu-open-1
 menu-0-1 = Shutdown
 menu-0-1-exec = menu-open-2
-#menu-0-2 = Exit
-#menu-0-2-exec = menu-open-3
+menu-0-2 = Exit
+menu-0-2-exec = menu-open-3
 
 menu-1-0 = 
 menu-1-0-exec = termite -e 'reboot'
@@ -389,9 +423,9 @@ label-font = 3
 ws-icon-0 = "1;"
 ws-icon-1 = "2;"
 ws-icon-2 = "3;"
-ws-icon-3 = "4;"
+ws-icon-3 = "4;"
 ws-icon-4 = "5;"
-ws-icon-5 = "6;"
+ws-icon-5 = "6;"
 ws-icon-6 = "7;"
 ws-icon-7 = "8;"
 
@@ -484,4 +518,3 @@ click-right = echo right
 #interval = 0.5
 #label-maxlen = 70
 #label-foreground = ${colors.yellow}
-

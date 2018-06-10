@@ -20,13 +20,29 @@ do
 done
 
 if [ $FLAG == 1 ]; then
-    # Get the filename
-    FILENAME=( $(cmus-remote -Q | grep -i "file") )
-    # Remove file from the beginning
-    FILENAME=${FILENAME[@]//"file"/""}
-    # Get just the basename
-    SONG=$(basename "$FILENAME")
-    echo "${SONG[@]:0:45}"
+    # First method
+
+    TITLE=$( cmus-remote -Q | grep title | cut -d " " -f 3- )
+    # Sometimes this string turns out empty
+
+    if [ -n "$TITLE" ];
+    then
+        echo ${TITLE[@]:0:25}
+    else
+        # Second method
+
+        # Get the filename
+        FILENAME=( $(cmus-remote -Q | grep -i "file") )
+        # Remove file from the beginning
+        FILENAME=${FILENAME[@]//"file"/""}
+        # Remove the .mp3 too
+        FILENAME=${FILENAME[@]//".mp3"/""}
+        # Remove the dashes
+        FILENAME=${FILENAME[@]//"-"/""}
+        # Get just the basename
+        SONG=$(basename "$FILENAME")
+        echo "${SONG[@]:0:25}"
+    fi
 elif [ $FLAG == 2 ]; then
     ARR=($(pacmd list-sink-inputs | grep -i "media.title"))
     # Remove the "
@@ -34,5 +50,6 @@ elif [ $FLAG == 2 ]; then
     # Remove the media.title
     SONG=${OUT[@]:14: 35}
     echo "$SONG"
+else
+    echo ""
 fi
-

@@ -24,18 +24,20 @@ get_icon() {
   echo $icon
 }
 
-API_KEY="fae20830284e5c2299b55618b04e7d52"
-LAT="-19.9227591"
-LON="-43.9651427"
+# API key from openweathermap. Add yours by signing up there.
+API_KEY="fd2c04ed7f9802656bd2cc23bddc7ad9"
+# Get your lat and long. Just Google.
+LAT="26.111898"
+LON="91.797896"
 UNITS="metric"
 SYMBOL="°C"
 
 weather=$(curl -sf "http://api.openweathermap.org/data/2.5/weather?lat=$LAT&lon=$LON&units=$UNITS&APPID=$API_KEY")
 
 if [ ! -z "$weather" ]; then
-  description=$(echo "$weather" | jq -r ".weather[0].description")
+  #description=$(echo "$weather" | jq -r ".weather[0].description")
   temperature=$(echo "$weather" | jq ".main.temp" | cut -d "." -f 1)
   icon=$(echo "$weather" | jq -r ".weather[0].icon")
 
-  echo "$(get_icon "$icon")" " ${description[@]^}", "$temperature$SYMBOL"
+  echo "$(get_icon "$icon")" "$temperature$SYMBOL"
 fi
