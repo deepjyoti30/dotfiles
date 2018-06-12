@@ -11,11 +11,16 @@
  * nitrogen -- wallpaper
  * termite  -- Terminal
  * rofi     -- app launcher
- * cmus     -- music player
+ * ncmpcpp  -- music player (cmus previously)
 
 ## Screenshot
+
+### New
+
+[![Screenshot](https://i.imgur.com/8fgZCcZg.png)](https://i.imgur.com/8fgZCcZg.png) 
+
+### Old
 
 [![Screenshot](https://i.imgur.com/eAoo0vu.png)](https://i.imgur.com/eAoo0vu.png)
 [![Screenshot](https://i.imgur.com/9w7EdQV.png)](https://i.imgur.com/9w7EdQV.png)
 [![Screenshot](https://i.imgur.com/8Eqhelh.png)](https://i.imgur.com/8Eqhelh.png)
-
