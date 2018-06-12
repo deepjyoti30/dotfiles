@@ -39,8 +39,8 @@ module-margin-right = 1
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-modules-left = battery ram cpu weather
-modules-center = song prev-song pp next-song
+modules-left = battery ram cpu weather pulseaudio
+modules-center =song prev-song pp next-song
 ; xwindow
 modules-right = wifi date clock
 
@@ -62,7 +62,7 @@ font-3 = FontAwesome5Free:style=Solid:pixelsize=12;4
 font-4 = FontAwesome5Brands:style=Solid:pixelsize=12;4
 font-5 = MaterialIcons:pixelsize=13;4
 font-6 = Wuncon Siji:pixelsize=13;4
-font-7 = FontAwesome5Free:style=Regular:pixelsize=12
+;font-7 = FontAwesome5Free:style=Regular:pixelsize=12
 
 padding-left = 1
 padding-right = 2
@@ -77,6 +77,45 @@ modules-right = keyboard powermenu tray
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+; Sink to be used, if it exists (find using `pacmd list-sinks`, name field)
+; If not, uses default sink
+sink = alsa_output.pci-0000_12_00.3.analog-stereo
+
+; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
+; Default: true
+use-ui-max = true
+
+; Available tags:
+;   <label-volume> (default)
+;   <ramp-volume>
+;   <bar-volume>
+format-volume = <ramp-volume> <label-volume>
+;<ramp-volume>
+
+; Available tags:
+;   <label-muted> (default)
+;   <ramp-volume>
+;   <bar-volume>
+;format-muted = <label-muted>
+
+; Available tokens:
+;   %percentage% (default)
+label-volume = %percentage%%
+label-volume-foreground = ${colors.yellow}
+
+; Available tokens:
+;   %percentage% (default)
+label-muted = 🔇 muted
+label-muted-foreground = ${colors.red}
+
+; Only applies if <ramp-volume> is used
+ramp-volume-0 = 🔈
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
 
 [module/fs]
 type = custom/script
@@ -213,7 +252,7 @@ label =  %output%
 [module/next-song]
 type = custom/script
 exec = $HOME/.config/polybar/shownext.sh
-click-left = sh $HOME/.config/polybar/next.sh
+click-left =sh $HOME/.config/polybar/next.sh
 interval = 0.25
 
 label = %output%
@@ -221,7 +260,7 @@ label = %output%
 [module/prev-song]
 type = custom/script
 exec = $HOME/.config/polybar/showprev.sh
-click-left = sh $HOME/.config/polybar/prev.sh
+click-left =sh $HOME/.config/polybar/prev.sh
 interval = 0.25
 
 label = %output%
@@ -229,7 +268,7 @@ label = %output%
 [module/pp]
 type = custom/script
 exec = $HOME/.config/polybar/showpp.sh
-click-left = sh $HOME/.config/polybar/pp.sh
+click-left =sh $HOME/.config/polybar/pp.sh
 interval = 0.25
 
 label = %output%

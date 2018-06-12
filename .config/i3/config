@@ -46,9 +46,9 @@ set_from_resource       $theme-active     foreground
 set_from_resource       $theme-inactive   trueblack
 
 client.background	      $background
-client.focused          $theme-active   $theme-active   $theme-inactive $theme-active   $theme-active
+client.unfocused          $theme-active   $theme-active   $theme-inactive $theme-active   $theme-active
 client.focused_inactive $theme-inactive $theme-inactive $theme-active   $theme-active   $theme-inactive
-client.unfocused        $theme-inactive $theme-inactive $theme-active   $theme-inactive $theme-inactive
+client.focused        $theme-inactive $theme-inactive $theme-active   $theme-inactive $theme-inactive
 
 
 
@@ -158,11 +158,11 @@ bindsym $mod+t focus mode_toggle
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
 ################################################################################################
 
-exec --no-startup-id volumeicon
-bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+#exec --no-startup-id volumeicon
+#bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 exec --no-startup-id pulseaudio --start
-#exec --no-startup-id pa-applet
-#bindsym $mod+Ctrl+m exec pavucontrol
+exec --no-startup-id pa-applet
+bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
 
@@ -218,7 +218,7 @@ bindsym $mod+Shift+0 move container to workspace number 10
 ##########################################################
 
 # Always move windows to specific workspaces
-assign [class="Atom"] → 2
+assign [class="Code"] → 2
 assign [class="Google-chrome-beta"] → 3
 assign [class="Franz"] → 4
 assign [class="cmus"] → 5
@@ -226,7 +226,7 @@ assign [class="Nautilus"] → 6
 
 for_window [window_role="term"] move to workspace 1, move left
 for_window [window_role="cmatrix"] move to workspace 1, move right
-for_window [class="Atom"] move to workspace 2
+for_window [class="Code"] move to workspace 2
 for_window [class="Google-chrome-beta"] move to workspace 3
 for_window [class="Franz"] move to workspace 4
 for_window [window_role="cmus"] move to workspace 5, move up
@@ -235,11 +235,12 @@ for_window [window_role="cava"] move to workspace 5, move down
 for_window [class="Nautilus"] move to workspace 6
 
 # Setup floating windows
-for_window [class="Franz"] floating enable, resize set 1200 800
-#for_window [class="feh"] floating enable, resize set 1440 900
-#for_window [class="Lxappearance"] floating enable, resize set 900 600
+for_window [class="Code"] resize set 850 620
+for_window [class="Google-chrome-beta"] resize set 1260 650
+for_window [class="feh"] floating enable, resize set 1240 900
+for_window [class="Lxappearance"] floating enable, resize set 900 600
 for_window [class="Nitrogen"] floating enable, resize set 900 600
-#for_window [class="gucharmap"] floating enable, resize set 900 600
+for_window [class="gucharmap"] floating enable, resize set 900 600
 
 
 ##########################################################
@@ -276,7 +277,7 @@ exec_always --no-startup-id fix_xcursor
 # exec --no-startup-id start_conky_green
 
 # Auto lock
-exec --no-startup-id xautolock -time 10 -locker "sh ~/.i3/lock.sh"
+exec --no-startup-id xautolock -time 30 -locker "sh ~/.i3/lock.sh"
 
 # Kill all opened environment apps
 exec_always --no-startup-id "killall -q polybar sxhkd compton nitrogen dunst"
@@ -322,7 +323,7 @@ exec_always --no-startup-id "xdo lower $(xdo id -n polybar); xdo raise $(xdo id 
 exec_always --no-startup-id "cmus-remote -C 'set output_plugin=pulse'"
 
 # Set a new wallpaper with my Script
-exec_always --no-startup-id "sh $HOME/.i3/grab_paper.sh"
+# exec_always --no-startup-id "sh $HOME/.i3/grab_paper.sh"
 
 
 ##########################################################

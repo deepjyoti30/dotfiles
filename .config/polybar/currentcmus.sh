@@ -2,10 +2,10 @@
 
 # Uses cmus-remote to show song
 
-# First Check if cmus is running.
+# First Check which player is running.
 FLAG=0
 
-APPS=("cmus rhythmbox")
+APPS=("cmus mpd")
 
 for APP in $APPS
 do
@@ -13,7 +13,7 @@ do
     if ps ux | grep -P $pat | grep -vq grep; then
         if [ $APP == "cmus" ]; then
             FLAG=1
-        elif [ $APP == "rhythmbox" ]; then
+        elif [ $APP == "mpd" ]; then
             FLAG=2
         fi
     fi
@@ -44,12 +44,22 @@ if [ $FLAG == 1 ]; then
         echo "${SONG[@]:0:25}"
     fi
 elif [ $FLAG == 2 ]; then
-    ARR=($(pacmd list-sink-inputs | grep -i "media.title"))
-    # Remove the "
-    OUT=${ARR[@]//'"'/''}
-    # Remove the media.title
-    SONG=${OUT[@]:14: 35}
-    echo "$SONG"
+    # Try to get the title.
+
+    TITLE=$(mpc -f %title% | awk 'FNR<=1')
+    # In case the title string turns out empty then get the filename
+    if [ -z "$TITLE" ];
+    then
+        #echo "nana"
+        TITLE=$(mpc -f %file% | awk 'FNR<=1')
+        TITLE=$( basename $TITLE )
+        TITLE=${TITLE[@]//".mp3"/""}
+        TITLE=${TITLE[@]//"_"/""}
+        #echo $TITLE
+    fi
+
+    echo ${TITLE[@]:0:20}
+
 else
     echo ""
 fi

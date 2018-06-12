@@ -1,9 +1,9 @@
 #!/usr/bin/sh
 
-# First Check if cmus is running.
+# First Check if which player is running.
 FLAG=0
 
-APPS=("cmus")
+APPS=("cmus mpd")
 
 for APP in $APPS
 do
@@ -11,13 +11,15 @@ do
     if ps ux | grep -P $pat | grep -vq grep; then
         if [ $APP == "cmus" ]; then
             FLAG=1
+        elif [ $APP == "mpd" ];then
+            FLAG=2
         fi
     fi
 done
 
 ICON=""
 
-if [ $FLAG != 0 ];then
+if [ $FLAG == 1 ] || [ $FLAG == 2 ];then
     echo "$ICON"
 else
     echo ""

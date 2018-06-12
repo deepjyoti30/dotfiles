@@ -1,0 +1,32 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: play
+current: 0
+time: 4.249000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Music/Kendrick Lamar - Humble - (www.SongsLover.club).mp3
+1:Music/MASHUP 2017 _PERFECT STRUGGLE_ - 2017 Year End Mashup by #AnDyWuMUSICLAND (Best 118 Pop Songs).mp3
+2:Music/ek_ajnabee_haseena_se_by_ash.mp3
+3:Music/Pop Songs World 2017 - Mashup (Dj Pyromania).mp3
+4:Music/Photograph - Ed Sheeran (Lyrics) (320  kbps).mp3
+5:Music/Arijit Singh - Unplugged Season 3 - 'Phir Mohabbat'-1.mp3
+6:Music/Music/02 Gulabi - Shuddh Desi Romance.mp3
+7:Music/Music/03 The Chainsmokers - Closer (feat. Halsey).mp3
+8:Music/Music/03 Tum Saath Ho - Tamasha (Arijit Singh) 190Kbps.mp3
+9:Music/Sngs/Attention - (wwww.songspksongspk.link) - 128Kbps.mp3
+10:Music/Sngs/CMC$ and Conor Maynard - Understand Me (CDQ).mp3
+11:Music/Sngs/crush_david archuleta.mp3
+12:Music/Sngs/Eminem feat Sia - Beautiful Pain.mp3
+13:Music/Sngs/Eminem Feat Sia - Guts Over Fear.mp3
+14:Music/Sngs/Magic! - Rude.mp3
+15:Music/Sngs/Maroon_5_ft._Kendrick_Lamar_-_Don_t_Wanna_Know_Mark_Neo_Remix_(mp3.pm).mp3
+16:Music/Sngs/Zack Hemsey - Vengeance.mp3
+playlist_end

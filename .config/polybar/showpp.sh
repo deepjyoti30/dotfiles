@@ -1,9 +1,9 @@
 #!/usr/bin/sh
 
-# First Check if cmus is running.
+# First Check which player is running.
 FLAG=0
 
-APPS=("cmus")
+APPS=("cmus mpd")
 
 for APP in $APPS
 do
@@ -11,14 +11,16 @@ do
     if ps ux | grep -P $pat | grep -vq grep; then
         if [ $APP == "cmus" ]; then
             FLAG=1
+        elif [ $APP == "mpd" ];then
+            FLAG=2
         fi
     fi
 done
 
-if [ $FLAG != 0 ];then
+if [ $FLAG == 1 ];then
     # First check the status
     PLAYING="status playing"
-    PAUSED="status paused"
+    #PAUSED="status paused"
 
     STATUS=$(cmus-remote -Q | grep "status")
 
@@ -26,6 +28,17 @@ if [ $FLAG != 0 ];then
         echo ""
     else
         echo ""
+    fi
+elif [ $FLAG == 2 ];then
+    PLAYING="[playing]"
+    #PAUSED="[paused]"
+
+    STATUS=$(mpc status | awk 'FNR>1 && FNR<=2')
+
+    if [ "${STATUS[@]:0:9}" == "$PLAYING" ];then
+        echo ""
+    else
+        echo ""
     fi
 else
     echo ""

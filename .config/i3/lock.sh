@@ -10,4 +10,7 @@ composite -gravity Center ~/.i3/lock.png /tmp/screen.png /tmp/screen.png
 
 convert -pointsize 35 -fill black -draw 'text 490,660 "Type Password to Unlock"' /tmp/screen.png /tmp/screen.png
 
+# Pause just befor locking.
+sh $HOME/.config/polybar/pp.sh
+
 i3lock -i /tmp/screen.png --radius 109 --ringvercolor=FFFFFFCC --ringcolor=FFFFFFCC --keyhlcolor=000000CC --insidecolor=00000000
