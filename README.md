@@ -17,7 +17,7 @@
 
 ### New
 
-[![Screenshot](https://i.imgur.com/8fgZCcZg.png)](https://i.imgur.com/8fgZCcZg.png) 
+[![Screenshot](https://i.imgur.com/8fgZCcZ.png)](https://i.imgur.com/8fgZCcZ.png) 
 
 ### Old
 
