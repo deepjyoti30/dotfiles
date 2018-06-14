@@ -3,7 +3,7 @@
 # First Check if which player is running.
 FLAG=0
 
-APPS=("cmus mpd")
+APPS=("cmus mpd mopidy")
 
 for APP in $APPS
 do
@@ -11,7 +11,7 @@ do
     if ps ux | grep -P $pat | grep -vq grep; then
         if [ $APP == "cmus" ]; then
             FLAG=1
-        elif [ $APP == "mpd" ];then
+        elif [ $APP == "mpd" ] || [ $APP == "mopidy" ]; then
             FLAG=2
         fi
     fi

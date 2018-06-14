@@ -173,9 +173,9 @@ bindsym $mod+Ctrl+m exec pavucontrol
 
 
 # Song control
-bindsym XF86AudioPlay exec cmus-remote -u
-bindsym XF86AudioNext exec cmus-remote -n
-bindsym XF86AudioPrev exec cmus-remote -r
+bindsym XF86AudioPlay exec --no-startup-id "sh $HOME/.config/polybar/pp.sh"
+bindsym XF86AudioNext exec --no-startup-id "sh $HOME/.config/polybar/next.sh"
+bindsym XF86AudioPrev exec --no-startup-id "sh $HOME/.config/polybar/prev.sh"
 
 
 # Screenshot
@@ -218,6 +218,7 @@ bindsym $mod+Shift+0 move container to workspace number 10
 ##########################################################
 
 # Always move windows to specific workspaces
+assign [class="term"] → 1
 assign [class="Code"] → 2
 assign [class="Google-chrome-beta"] → 3
 assign [class="Franz"] → 4
@@ -235,6 +236,7 @@ for_window [window_role="cava"] move to workspace 5, move down
 for_window [class="Nautilus"] move to workspace 6
 
 # Setup floating windows
+for_window [class="term"] resize set 800 500
 for_window [class="Code"] resize set 850 620
 for_window [class="Google-chrome-beta"] resize set 1260 650
 for_window [class="feh"] floating enable, resize set 1240 900
@@ -322,6 +324,9 @@ exec_always --no-startup-id "xdo lower $(xdo id -n polybar); xdo raise $(xdo id 
 # Set output of cmus as pulse
 exec_always --no-startup-id "cmus-remote -C 'set output_plugin=pulse'"
 
+# Start mpd
+exec_always --no-startup-id "mpd"
+
 # Set a new wallpaper with my Script
 # exec_always --no-startup-id "sh $HOME/.i3/grab_paper.sh"
 
@@ -333,7 +338,7 @@ exec_always --no-startup-id "cmus-remote -C 'set output_plugin=pulse'"
 #exec --no-startup-id "betterlockscreen -l"
 
 # Workspace 1
-exec "termite"
+exec "termite -e fortune | cowsay | lolcat"
 
 
 # Workspace 2
@@ -341,7 +346,7 @@ exec "termite"
 
 
 # Workspace 3
-exec google-chrome-beta
+#exec google-chrome-beta
 
 
 # Workspace 4
@@ -352,7 +357,7 @@ exec google-chrome-beta
 #exec "termite -e cava"
 
 # Workspace 6
-exec nautilus
+#exec nautilus
 
 # Workspace 6
 #exec nautilus

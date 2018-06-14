@@ -5,7 +5,7 @@
 # First Check which player is running.
 FLAG=0
 
-APPS=("cmus mpd")
+APPS=("cmus mpd mopidy")
 
 for APP in $APPS
 do
@@ -13,7 +13,7 @@ do
     if ps ux | grep -P $pat | grep -vq grep; then
         if [ $APP == "cmus" ]; then
             FLAG=1
-        elif [ $APP == "mpd" ]; then
+        elif [ $APP == "mpd" ] || [ $APP == "mopidy" ]; then
             FLAG=2
         fi
     fi
@@ -38,7 +38,7 @@ if [ $FLAG == 1 ]; then
         # Remove the .mp3 too
         FILENAME=${FILENAME[@]//".mp3"/""}
         # Remove the dashes
-        FILENAME=${FILENAME[@]//"-"/""}
+        FILENAME=${FILENAME[@]//"_"/""}
         # Get just the basename
         SONG=$(basename "$FILENAME")
         echo "${SONG[@]:0:25}"
@@ -52,13 +52,13 @@ elif [ $FLAG == 2 ]; then
     then
         #echo "nana"
         TITLE=$(mpc -f %file% | awk 'FNR<=1')
-        TITLE=$( basename $TITLE )
+        TITLE=$( basename "$TITLE" )
         TITLE=${TITLE[@]//".mp3"/""}
         TITLE=${TITLE[@]//"_"/""}
         #echo $TITLE
     fi
 
-    echo ${TITLE[@]:0:20}
+    echo ${TITLE[@]:0:40}
 
 else
     echo ""

@@ -93,7 +93,7 @@ use-ui-max = true
 ;   <label-volume> (default)
 ;   <ramp-volume>
 ;   <bar-volume>
-format-volume = <ramp-volume> <label-volume>
+format-volume =  <label-volume>
 ;<ramp-volume>
 
 ; Available tags:
@@ -333,7 +333,7 @@ format-foreground = ${colors.magenta}
 label = %date%
 
 
-[module/volume]
+[module/volume1]
 type = internal/volume
 master-mixer = Master
 

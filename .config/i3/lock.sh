@@ -13,4 +13,7 @@ convert -pointsize 35 -fill black -draw 'text 490,660 "Type Password to Unlock"'
 # Pause just befor locking.
 sh $HOME/.config/polybar/pp.sh
 
-i3lock -i /tmp/screen.png --radius 109 --ringvercolor=FFFFFFCC --ringcolor=FFFFFFCC --keyhlcolor=000000CC --insidecolor=00000000
+# Need to disable auto lock from i3 config
+python $HOME/.i3/dis_autolock.py
+
+i3lock -i /tmp/screen.png --radius 109 --ringvercolor=FFFFFFCC --ringcolor=FFFFFFCC --keyhlcolor=000000CC --insidecolor=00000000 -n; sh $HOME/.config/polybar/pp.sh && python $HOME/.i3/dis_autolock.py

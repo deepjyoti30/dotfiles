@@ -91,9 +91,12 @@ export EDITOR='code'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias atomn="atom -n=false"
+
+alias cava="cava | lolcat"
 
 # Load aliases and functions
-source $HOME/.zsh_aliases.zsh
+#source $HOME/.zsh_aliases.zsh
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
