@@ -95,6 +95,10 @@ alias atomn="atom -n=false"
 
 alias cava="cava | lolcat"
 
+alias fortune="fortune | cowsay | lolcat"
+
+alias exa="exa -al"
+
 # Load aliases and functions
 #source $HOME/.zsh_aliases.zsh
 
