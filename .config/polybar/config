@@ -21,6 +21,9 @@ margin-bottom = 0
 [bar/toolbar]
 width = 100%
 height = 30
+;offset-x = 2%
+;offset-y = 0.5%
+;override-redirect = true
 enable-ipc = true
 
 font-0 = Fira Code:pixelsize=11;3
@@ -40,7 +43,8 @@ background = ${colors.background}
 foreground = ${colors.foreground}
 
 modules-left = battery ram cpu weather pulseaudio
-modules-center =song prev-song pp next-song
+modules-center =mpd
+;song prev-song pp next-song
 ; xwindow
 modules-right = wifi date clock
 
@@ -48,7 +52,9 @@ modules-right = wifi date clock
 [bar/bottombar]
 width = 100%
 height = 28
+;offset-x = 5%
 bottom = true
+;override-redirect = true
 enable-ipc = true
 
 tray-position = right
@@ -77,6 +83,20 @@ modules-right = keyboard powermenu tray
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
+
+[module/mpd]
+type = internal/mpd
+
+format-online = <label-song> <icon-prev> <toggle> <icon-next>
+
+icon-prev = %{T3}%{T-}
+icon-next = %{T3}%{T-}
+icon-play = 
+icon-pause = 
+label-song-foreground = ${colors.green}
+label-song =  %title%
+label-song-maxlen = 45
+label-song-ellipsis = true
 
 [module/pulseaudio]
 type = internal/pulseaudio
