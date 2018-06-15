@@ -237,7 +237,7 @@ for_window [class="Nautilus"] move to workspace 6
 
 # Setup floating windows
 for_window [class="term"] resize set 800 500
-for_window [class="Code"] resize set 850 620
+for_window [class="Code"] resize set 650 620
 for_window [class="Google-chrome-beta"] resize set 1260 650
 for_window [class="feh"] floating enable, resize set 1240 900
 for_window [class="Lxappearance"] floating enable, resize set 900 600
@@ -338,7 +338,7 @@ exec_always --no-startup-id "mpd"
 #exec --no-startup-id "betterlockscreen -l"
 
 # Workspace 1
-exec "termite -e fortune | cowsay | lolcat"
+exec "termite -e fortune"
 
 
 # Workspace 2
