@@ -78,8 +78,6 @@ bindsym $mod+Shift+q kill
 
 # Lock
 bindsym $mod+shift+l exec ~/.i3/lock.sh
-#betterlockscreen -l #--no-startup-id blurlock
-#
 
 # Open Rofi
 bindsym $mod+space exec "rofi -modi run,drun,window -show drun"
@@ -252,9 +250,6 @@ for_window [class="gucharmap"] floating enable, resize set 900 600
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
-# Manjaro welcome screen
-#exec --no-startup-id manjaro-hello
-
 # For wifi
 exec --no-startup-id nm-applet
 
@@ -353,8 +348,7 @@ exec "termite -e fortune"
 # exec franz
 
 # Workspace 5
-# exec cmus
-#exec "termite -e cava"
+# exec 
 
 # Workspace 6
 #exec nautilus
@@ -395,4 +389,4 @@ exec "termite -e fortune"
 
 
 # hide/unhide i3status bar
-bindsym $mod+m bar mode toggle
+# bindsym $mod+m bar mode toggle
