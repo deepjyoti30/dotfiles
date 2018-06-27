@@ -27,7 +27,7 @@ if [ $FLAG == 1 ]; then
 
     if [ -n "$TITLE" ];
     then
-        echo ${TITLE[@]:0:25}
+        echo ${TITLE[@]:0:20}
     else
         # Second method
 
@@ -41,7 +41,7 @@ if [ $FLAG == 1 ]; then
         FILENAME=${FILENAME[@]//"_"/""}
         # Get just the basename
         SONG=$(basename "$FILENAME")
-        echo "${SONG[@]:0:25}"
+        echo "${SONG[@]:0:20}"
     fi
 elif [ $FLAG == 2 ]; then
     # Try to get the title.
@@ -58,7 +58,7 @@ elif [ $FLAG == 2 ]; then
         #echo $TITLE
     fi
 
-    echo ${TITLE[@]:0:40}
+    echo ${TITLE[@]:0:25}
 
 else
     echo ""

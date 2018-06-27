@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-# First Check which player is running.
+# First Check if which player is running.
 FLAG=0
 
 APPS=("cmus mpd mopidy")
@@ -17,10 +17,8 @@ do
     fi
 done
 
-ICON=""
-
-if [ $FLAG == 1 ] || [ $FLAG == 2 ];then
-    echo "$ICON"
-else
-    echo ""
+if [ $FLAG == 1 ];then
+    cmus-remote -u
+elif [ $FLAG == 2 ];then
+    mpc pause
 fi

@@ -1,5 +1,5 @@
 [colors]
-background = #B2111111
+background = #B2111111 
 foreground = ${xrdb:foreground}
 foreground-alt= #528BFF
 black = #000000
@@ -10,6 +10,7 @@ yellow = ${xrdb:color3}
 magenta = ${xrdb:color5}
 cyan = ${xrdb:color6}
 white = ${xrdb:color7}
+grey = ${xrdb:color8}
 
 [settings]
 screenchange-reload = true
@@ -18,12 +19,12 @@ screenchange-reload = true
 margin-top = 0
 margin-bottom = 0
 
-[bar/toolbar]
-width = 100%
-height = 30
-;offset-x = 2%
-;offset-y = 0.5%
-;override-redirect = true
+[bar/songbar]
+width = 26%
+height = 32
+offset-x = 73%
+offset-y = 1%
+override-redirect = true
 enable-ipc = true
 
 font-0 = Fira Code:pixelsize=11;3
@@ -42,24 +43,105 @@ module-margin-right = 1
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-modules-left = battery ram cpu weather pulseaudio
-modules-center =mpd
-;song prev-song pp next-song
+modules-center = mpd
+
+[bar/util]
+width = 18%
+height = 32
+offset-x = 2%
+offset-y = 1%
+override-redirect = true
+enable-ipc = true
+
+font-0 = Fira Code:pixelsize=11;3
+font-1 = octicons:pixelsize=14;3
+font-2 = Weather Icons:size=12;4
+font-3 = FontAwesome5Free:style=Solid:pixelsize=14;4
+font-4 = FontAwesome5Brands:style=Solid:pixelsize=14;4
+font-5 = MaterialIcons:pixelsize=13;4
+font-6 = Wuncon Siji:pixelsize=13;4
+
+padding-left = 1
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 1
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+modules-center = battery clock
+
+[bar/shortcuts]
+width = 22%
+height = 30
+offset-x = 39%
+offset-y = 1%
+bottom = true
+override-redirect = true
+enable-ipc = true
+
+font-0 = Fira Code:pixelsize=11;3
+font-1 = octicons:pixelsize=14;3
+font-2 = Weather Icons:size=12;4
+font-3 = FontAwesome5Free:style=Solid:pixelsize=12;4
+font-4 = FontAwesome5Brands:style=Solid:pixelsize=12;4
+font-5 = MaterialIcons:pixelsize=13;4
+font-6 = Wuncon Siji:pixelsize=13;4
+
+spacing = 0
+padding-left = 1
+padding-right = 1
+module-margin-left = 1
+module-margin-right = 1
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+modules-center = i3
+
+[bar/toolbar]
+width = 100%
+height = 32
+offset-x = 1%
+offset-y = 1%
+override-redirect = true
+enable-ipc = true
+
+font-0 = Fira Code:pixelsize=11;3
+font-1 = octicons:pixelsize=14;3
+font-2 = Weather Icons:size=12;4
+font-3 = FontAwesome5Free:style=Solid:pixelsize=14;4
+font-4 = FontAwesome5Brands:style=Solid:pixelsize=14;4
+font-5 = MaterialIcons:pixelsize=13;4
+font-6 = Wuncon Siji:pixelsize=13;4
+
+padding-left = 1
+padding-right = 2
+;module-margin-left = 1
+;module-margin-right = 1
+
+background = #000f0f0f
+;${colors.background}
+foreground = ${colors.foreground}
+
+modules-left = battery clock
+;ram cpu weather pulseaudio
+;modules-center = mpd
 ; xwindow
-modules-right = wifi date clock
+modules-right = mpd
+;song prev-song pp next-song
+;mpd
+;wifi date clock
 
 
 [bar/bottombar]
 width = 100%
-height = 28
+height = 32
 ;offset-x = 5%
+offset-y = 1%
 bottom = true
-;override-redirect = true
+override-redirect = true
 enable-ipc = true
-
-tray-position = right
-tray-maxsize = 16
-tray-transparent = false
 
 font-0 = Fira Code:pixelsize=11;3
 font-1 = octicons:pixelsize=14;3
@@ -74,12 +156,12 @@ padding-left = 1
 padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
-background = ${colors.background}
+background = #000f0f0f
+;${colors.background}
 foreground = ${colors.foreground}
 
-modules-left = fs temperature
 modules-center = i3
-modules-right = keyboard powermenu tray
+;modules-right = keyboard powermenu tray
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
@@ -87,16 +169,35 @@ scroll-down = i3wm-wsprev
 [module/mpd]
 type = internal/mpd
 
-format-online = <label-song> <icon-prev> <toggle> <icon-next>
+label-offline =  mpd is offline
+format-online = <label-song> <icon-prev><toggle><icon-next>
+format-online-background = ${colors.white}
+format-online-padding = 2
 
 icon-prev = %{T3}%{T-}
+icon-prev-padding = 1
+icon-prev-foreground = ${colors.black}
+icon-prev-background = ${colors.yellow}
+
 icon-next = %{T3}%{T-}
+icon-next-padding = 1
+icon-next-foreground = ${colors.black}
+icon-next-background = ${colors.yellow}
+
 icon-play = 
+icon-play-padding = 1
+icon-play-foreground = ${colors.black}
+icon-play-background = ${colors.yellow}
+
 icon-pause = 
-label-song-foreground = ${colors.green}
+icon-pause-padding = 1
+icon-pause-foreground = ${colors.black}
+icon-pause-background = ${colors.yellow}
+
+label-song-foreground = ${colors.black}
 label-song =  %title%
-label-song-maxlen = 45
-label-song-ellipsis = true
+;label-song-maxlen = 27
+;label-song-ellipsis = true
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -168,7 +269,12 @@ adapter = ADP1
 poll-interval = 5
 
 format-charging-foreground = ${colors.cyan}
-format-discharging-foreground = ${colors.yellow}
+format-charging-background = ${colors.magenta}
+format-discharging-foreground = ${colors.black}
+format-discharging-background = ${colors.magenta}
+
+format-charging-padding = 2
+format-discharging-padding = 2
 
 format-charging = <animation-charging> <label-charging>
 
@@ -265,7 +371,9 @@ type = custom/script
 exec = $HOME/.config/polybar/currentcmus.sh
 ;click-left =  sh $HOME/.config/polybar/pp.sh
 interval = 0.25
-format-foreground = ${colors.green}
+format-foreground = ${colors.black}
+format-background = ${colors.white}
+format-padding = 2
 
 label =  %output%
 
@@ -275,6 +383,9 @@ exec = $HOME/.config/polybar/shownext.sh
 click-left =sh $HOME/.config/polybar/next.sh
 interval = 0.25
 
+format-padding = 1
+format-background = ${colors.yellow}
+format-foreground = ${colors.black}
 label = %output%
 
 [module/prev-song]
@@ -283,6 +394,9 @@ exec = $HOME/.config/polybar/showprev.sh
 click-left =sh $HOME/.config/polybar/prev.sh
 interval = 0.25
 
+format-padding = 1
+format-background = ${colors.yellow}
+format-foreground = ${colors.black}
 label = %output%
 
 [module/pp]
@@ -291,6 +405,10 @@ exec = $HOME/.config/polybar/showpp.sh
 click-left =sh $HOME/.config/polybar/pp.sh
 interval = 0.25
 
+label-padding = 1
+label-margin = 0
+label-background = ${colors.yellow}
+label-foreground = ${colors.black}
 label = %output%
 
 [module/ram]
@@ -334,9 +452,9 @@ exec = "sh $HOME/.config/polybar/time.sh"
 interval = 1.0
 
 format = <label>
-format-prefix = " "
-format-foreground = ${colors.yellow}
-format-postfix = " "
+format-foreground = ${colors.green}
+format-background = ${colors.grey}
+format-padding = 2
 
 label = %output%
 
@@ -347,8 +465,8 @@ type = internal/date
 date =  %d/%m
 
 format = <label>
-format-prefix = " "
-format-foreground = ${colors.magenta}
+;format-prefix = " "
+format-foreground = ${colors.red}
 
 label = %date%
 
@@ -477,6 +595,7 @@ label-empty-padding = 2
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
+format-background = ${colors.background}
 label-font = 3
 
 ws-icon-0 = "1;"
@@ -485,8 +604,8 @@ ws-icon-2 = "3;"
 ws-icon-3 = "4;"
 ws-icon-4 = "5;"
 ws-icon-5 = "6;"
-ws-icon-6 = "7;"
-ws-icon-7 = "8;"
+;ws-icon-6 = "7;"
+;ws-icon-7 = "8;"
 
 index-sort = true
 wrapping-scroll = true
@@ -494,11 +613,13 @@ strip-wsnumbers = true
 
 label-focused = "%icon%"
 label-focused-foreground = ${colors.black}
-label-focused-background = ${colors.white}
+label-focused-background = ${colors.cyan}
 label-focused-padding = 2
 
 label-unfocused = "%icon%"
 label-unfocused-padding = 2
+label-unfocused-background = ${colors.grey}
+label-unfocused-foreground = ${colors.green}
 
 label-urgent = "%icon%"
 label-urgent-foreground = #ffffff

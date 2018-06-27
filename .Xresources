@@ -60,3 +60,7 @@ rofi.width:         30
 !white
 *color7:      #eeffff
 *color15:     #eeffff
+
+!new
+*color8:      #191a1e
+*color16:     #191a1e

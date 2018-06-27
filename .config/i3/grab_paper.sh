@@ -4,8 +4,8 @@
 
 # sleep 50s
 
-time_stat=$(date +"%h-%m-%y-%H-%M-%S")
-Wall_Name="$HOME/Walls/Random/Random-$time_stat.jpg"
+#time_stat=$(date +"%h-%m-%y-%H-%M-%S")
+Wall_Name="/tmp/Random.jpg"
 
 wget https://source.unsplash.com/random/1366x768 -O $Wall_Name
 

@@ -43,7 +43,7 @@ blur-background-exclude = [
 #################################
 clear-shadow = true;
 no-dnd-shadow = true;
-no-dock-shadow = false;
+no-dock-shadow = true;
 shadow = true;
 shadow-ignore-shaped = true;
 shadow-offset-x = -10;

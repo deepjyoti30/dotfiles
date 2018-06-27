@@ -95,9 +95,11 @@ alias atomn="atom -n=false"
 
 alias cava="cava | lolcat"
 
-alias fortune="fortune | cowsay | lolcat"
+alias nana="fortune | cowsay | lolcat"
 
 alias exa="exa -al"
+
+alias grab_paper="sh .i3/grab_paper.sh"
 
 # Load aliases and functions
 #source $HOME/.zsh_aliases.zsh
