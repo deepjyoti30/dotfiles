@@ -105,6 +105,8 @@ height = 32
 offset-x = 1%
 offset-y = 1%
 override-redirect = true
+;Make bars invisible in full screen
+wm-restack = i3
 enable-ipc = true
 
 font-0 = Fira Code:pixelsize=11;3
@@ -141,6 +143,9 @@ height = 32
 offset-y = 1%
 bottom = true
 override-redirect = true
+
+; Hide in fullscreen
+wm-restack = i3
 enable-ipc = true
 
 font-0 = Fira Code:pixelsize=11;3
