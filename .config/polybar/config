@@ -268,7 +268,7 @@ adapter = ADP1
 ; Default: 5
 poll-interval = 5
 
-format-charging-foreground = ${colors.cyan}
+format-charging-foreground = ${colors.black}
 format-charging-background = ${colors.magenta}
 format-discharging-foreground = ${colors.black}
 format-discharging-background = ${colors.magenta}
